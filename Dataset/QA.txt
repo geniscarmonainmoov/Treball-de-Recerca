@@ -1,0 +1,8 @@
+Q: ¿Qué es la inteligencia artificial?
+A: Es una rama de la informática.
+
+Q: ¿Cómo funciona GPT?
+A: Utiliza redes neuronales transformadoras.
+
+Q: ¿Qué es la computación cuántica?
+A: ...

@@ -1,0 +1,12 @@
+MULTIAGENT RUN
+================================================================================
+Model: lmstudio_google_mistralai_ministral-3-14b-reasoning
+Timestamp: 2026-06-05_16-49-14
+
+TEMPERATURES:
+  - agent_secundari_1: 0.2
+  - agent_secundari_2: 0.4
+  - agent_secundari_3: 0.7
+  - supervisor_agent: 0.3
+================================================================================
+

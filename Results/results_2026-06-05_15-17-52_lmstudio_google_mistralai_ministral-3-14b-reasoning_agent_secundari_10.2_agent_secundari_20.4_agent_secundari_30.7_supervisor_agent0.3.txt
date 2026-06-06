@@ -1,0 +1,45 @@
+MULTIAGENT RUN
+================================================================================
+Model: lmstudio_google_mistralai_ministral-3-14b-reasoning
+Timestamp: 2026-06-05_15-17-52
+
+TEMPERATURES:
+  - agent_secundari_1: 0.2
+  - agent_secundari_2: 0.4
+  - agent_secundari_3: 0.7
+  - supervisor_agent: 0.3
+
+================================================================================
+
+
+================================================================================
+PREGUNTA: ¿Qué es la inteligencia artificial?
+--------------------------------------------------------------------------------
+RESPUESTA:
+### **Respuesta final: ¿Qué es la inteligencia artificial?**
+
+#### **Definición integrada y comparativa**
+La **inteligencia artificial (IA)** es un campo interdisciplinario que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje, el razonamiento, la percepción o la toma de decisiones. Su desarrollo combina algoritmos avanzados, matemáticas (como álgebra lineal y cálculo diferencial) y grandes volúmenes de datos, permitiendo aplicaciones prácticas en salud, finanzas, logística, entretenimiento y más.
+
+---
+
+### **Puntos clave consolidados**
+1. **Características técnicas:**
+   - **Aprendizaje automático (ML):** Los sistemas aprenden patrones a partir de datos sin programación explícita (ej.: redes neuronales).
+   - **Procesamiento de lenguaje natural (NLP) y visión por computadora:** Permiten interacción con texto o imágenes (ej.: chatbots, reconocimiento facial).
+   - **Autonomía y adaptabilidad:** Algunos sistemas operan sin intervención humana (ej.: coches autónomos).
+
+2. **Tipos de IA:**
+   - **IA débil (Narrow AI):** Especializada en tareas específicas (ej.: asistentes virtuales).
+   - **IA fuerte (AGI) y superinteligencia (ASI):** Hipotéticas, con capacidad cognitiva general o superior a la humana.
+
+3. **Aplicaciones prácticas (enfoque real):**
+   - **Salud:** Diagnóstico médico asistido por IA (ej.: detección de cáncer).
+   - **Finanzas:** Detección de fraudes o trading algorítmico.
+   - **Transporte:** Coches autónomos y optimización de rutas.
+   - **Entretenimiento:** Generación de contenido (imágenes, música) o recomendaciones personalizadas.
+
+4. **Riesgos y limitaciones críticas:**
+   - **Sesgo en datos:** Los modelos pueden perpetuar discriminación si los datos de entrenamiento son incompletos o sesgados.
+   - **Falta de interpretabilidad ("black box"):** Dificultad para explicar cómo toman decisiones sistemas comple
+================================================================================
