@@ -1,0 +1,6 @@
+nest-asyncio
+pydantic-ai
+pydantic-ai-litellm
+logfire
+litellm
+pydantic
