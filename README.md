@@ -177,8 +177,8 @@ Les respostes generades es desen automàticament a:
 ## 1. Clonar el repositori
 
 ```bash
-git clone https://github.com/USUARI/NOM_REPOSITORI.git
-cd NOM_REPOSITORI
+git clone https://github.com/geniscarmonainmoov/Treball-de-Recerca.git
+cd Treball-de-Recerca
 ```
 
 ## 2. Crear un entorn virtual (opcional però recomanat)
