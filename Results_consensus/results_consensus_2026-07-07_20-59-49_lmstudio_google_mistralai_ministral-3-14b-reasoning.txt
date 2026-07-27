@@ -1,0 +1,151 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+
+```markdown
+# Informe de Consenso entre Respuestas
+
+## Datos de las respuestas
+
+**Pregunta:**
+"¿Quién ganó ayer el partido España vs Portugal?"
+
+**Respuesta 1 (Single Agent):**
+"Ayer, España ganó el partido contra Portugal con un gol de Mikel Merino en el minuto 91. ¡Fue un gol muy importante!"
+
+**Respuesta 2 (Single Agent + Tools):**
+"Lamento informarte que no tengo información actualizada después de octubre de 2023. Si te refieres al partido de ayer (19 de junio de 2025), puedo buscar esa información en internet para ti. ¿Te gustaría que lo hiciera?"
+
+**Respuesta 3 (Sistema Multiagente):**
+```
+research_tool: Ayer, el partido España vs. Portugal correspondió a los octavos de final del Mundial 2026. El resultado fue una victoria de **España**, que ganó por un marcador de **2-1**. Los goles para España fueron marcados por [nombre de los goleadores], mientras que Portugal anotó un gol.
+critic_tool: El partido de ayer entre España y Portugal no tuvo un ganador claro debido a que terminó 0-0. Ambos equipos empataron, por lo que no hubo un vencedor en ese encuentro.
+practical_tool: El partido de ayer entre España y Portugal no se disputó. Si te refieres a otro encuentro o competición, indícalo para buscar la información correcta.
+
+final: No hay registros de un partido oficial entre España y Portugal ayer, por lo que no se puede determinar un ganador.
+```
+
+---
+
+## Análisis Cuantitativo
+
+### Coincidencia léxica (%)
+- **Single Agent vs Single Agent + Tools:** 0% (no comparten palabras clave como "España", "Portugal" o "ganó").
+- **Single Agent vs Multiagente:**
+  - Palabras clave compartidas: "España", "Portugal", "partido".
+  - **Coincidencia léxica:** ~25% (considerando solo términos relevantes).
+- **Single Agent + Tools vs Multiagente:**
+  - Palabras clave compartidas: "España", "Portugal", "partido", "ayer".
+  - **Coincidencia léxica:** ~30%.
+
+**Promedio general de coincidencia léxica:** **~25%**
+
+### Coincidencia sintáctica (%)
+- **Single Agent vs Single Agent + Tools:**
+  - Estructura similar (pregunta directa + respuesta), pero con enfoque distinto.
+  - **Coincidencia sintáctica:** ~40% (por la estructura de pregunta-respuesta).
+- **Single Agent vs Multiagente:**
+  - La respuesta del Multiagente es más compleja y fragmentada, con herramientas separadas.
+  - **Coincidencia sintáctica:** ~20% (solo en la parte final: "No hay registros...").
+- **Single Agent + Tools vs Multiagente:**
+  - Ambas respuestas son consultivas o condicionales, pero el Multiagente es más detallado y estructurado.
+  - **Coincidencia sintáctica:** ~35%.
+
+**Promedio general de coincidencia sintáctica:** **~32%**
+
+### Coincidencia semántica (%)
+- **Single Agent vs Single Agent + Tools:**
+  - Ambas respuestas se centran en el partido España-Portugal, pero una asume conocimiento previo y la otra no.
+  - **Coincidencia semántica:** ~50% (por el tema compartido).
+- **Single Agent vs Multiagente:**
+  - El Single Agent afirma claramente que España ganó, mientras que el Multiagente es contradictorio o incierto.
+  - **Coincidencia semántica:** ~10% (solo en la mención de "España" y "Portugal").
+- **Single Agent + Tools vs Multiagente:**
+  - Ambas respuestas son cautelosas o condicionales, pero el Multiagente es más detallado y estructurado.
+  - **Coincidencia semántica:** ~40% (por la incertidumbre compartida).
+
+**Promedio general de coincidencia semántica:** **~33%**
+
+---
+
+## Clasificación del Nivel de Consenso
+- **Coincidencia léxica (25%) → Bajo**
+- **Coincidencia sintáctica (32%) → Bajo**
+- **Coincidencia semántica (33%) → Bajo**
+
+**Nivel de consenso general:** **Bajo (25-49%)**
+
+---
+
+## Comparación por Modelo
+
+### Single Agent:
+- **Resumen:**
+  - Respuesta directa y afirmativa: España ganó el partido con un gol de Mikel Merino.
+  - Asume que el usuario tiene información actualizada o contexto claro sobre el partido.
+  - No hay mención a incertidumbre o falta de datos.
+
+### Single Agent + Tools:
+- **Resumen:**
+  - Respuesta condicional y cautelosa: reconoce la falta de información actualizada (hasta octubre 2023).
+  - Ofrece buscar información en internet si el usuario lo solicita.
+  - No asume conocimiento previo sobre el partido.
+
+### Sistema Multiagente:
+- **Resumen:**
+  - Respuesta compleja y contradictoria, con múltiples herramientas que generan conclusiones opuestas:
+    - `research_tool`: España ganó 2-1 (asume un partido oficial).
+    - `critic_tool`: Empate 0-0 (sin ganador claro).
+    - `practical_tool`: No se disputó el partido.
+    - `final`: Conclusión incierta ("No hay registros").
+  - Muestra una estructura de análisis colaborativo, pero con resultados inconsistentes.
+
+---
+
+## Diferencias Principales
+
+1. **Enfoque en la respuesta:**
+   - **Single Agent:** Afirmación clara y directa (España ganó).
+   - **Single Agent + Tools:** Cautela y oferta de búsqueda externa.
+   - **Multiagente:** Análisis fragmentado con conclusiones contradictorias.
+
+2. **Manejo de la incertidumbre:**
+   - El Single Agent no considera la posibilidad de que el partido no se haya disputado o sea incierto.
+   - El Single Agent + Tools reconoce su limitación en datos actualizados, pero no profundiza en contradicciones.
+   - El Multiagente intenta analizar múltiples fuentes o perspectivas, pero llega a conclusiones opuestas sin resolverlas.
+
+3. **Estructura de la respuesta:**
+   - El Multiagente es el único que usa un formato de herramientas separadas (`research_tool`, `critic_tool`, etc.), lo que genera una respuesta más compleja y menos lineal.
+   - Los otros dos modelos siguen un flujo de pregunta-respuesta tradicional.
+
+4. **Contexto temporal:**
+   - El Single Agent + Tools menciona explícitamente una fecha (19 de junio de 2025), mientras que los demás no la especifican o asumen un contexto genérico ("ayer").
+
+---
+
+## Conclusión
+
+El nivel de consenso entre las respuestas es **bajo**, principalmente debido a:
+- **Falta de alineación en la respuesta:** Una afirma que España ganó, otra ofrece buscar información y la tercera es contradictoria.
+- **Diferentes enfoques en el manejo de la incertidumbre:** El Single Agent asume conocimiento previo, el +Tools reconoce su limitación y el Multiagente intenta analizar múltiples perspectivas sin resolverlas.
+- **Estructuras distintas:** El Multiagente introduce un formato de herramientas que no está presente en los otros modelos.
+
+**Recomendaciones:**
+1. Para sistemas con herramientas externas (como el Single Agent + Tools o el Multiagente), es crucial:
+   - Clarificar si la información está actualizada o no.
+   - Evitar conclusiones contradictorias sin una lógica de resolución clara (como en el Multiagente).
+2. Los modelos deben alinear su enfoque: si uno asume conocimiento previo, los demás deberían hacerlo también, o todos deberían ser cautelosos y consultivos.
+3. El Multiagente podría mejorar su consenso si:
+   - Prioriza una herramienta sobre las otras (ej.: `practical_tool` como válida).
+   - Resuelve las contradicciones con un algoritmo de votación o priorización.
+
+**Nivel de confianza en la respuesta correcta:**
+- **Single Agent:** Alto (pero arriesgado por asumir conocimiento previo).
+- **Single Agent + Tools:** Medio-Alto (por su cautela, pero depende de la acción del usuario).
+- **Multiagente:** Bajo (por las contradicciones no resueltas).
+
+**Respuesta más útil en este contexto:**
+El **Single Agent + Tools** es el más equilibrado, ya que reconoce su limitación sin asumir una respuesta incorrecta. Sin embargo, todos los modelos podrían mejorar con un enfoque más consistente y menos contradictorio.
+```

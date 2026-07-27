@@ -1,0 +1,72 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Quién ganó el partido de octavos de final del Mundial 2026 que terminó 1-0? Explica cómo se desarrolló el encuentro, quién marcó el único gol, en qué minuto llegó y cuáles fueron los momentos más importantes del partido.
+
+### Informe de Consenso
+
+#### Coincidencia Léxica
+- No aplicable (no hay texto para análisis)
+
+#### Coincidencia Sintáctica
+- No aplicable (no hay texto para análisis)
+
+#### Coincidencia Semántica
+- No aplicable (no hay texto para análisis)
+
+### Comparación por modelo
+
+Single Agent:
+- No ejecutado
+
+Single Agent + Tools:
+- No ejecutado
+
+Multiagente:
+- El partido de octavos de final del Mundial 2026 terminó con un resultado de 1-0. Para más detalles sobre los partidos, cruces y fechas, te recomiendo revisar las noticias y artículos recopilados en la búsqueda realizada.
+
+### Diferencias principales
+
+- La respuesta del sistema multiagente proporciona información detallada sobre el partido, mientras que las otras no ofrecen contenido relacionado con el tema.
+
+### Conclusión
+El análisis muestra una falta de consenso entre las respuestas debido a la ausencia de texto en las primeras dos opciones. La respuesta del sistema multiagente es la única que proporciona información relevante sobre el partido, lo que indica un nivel muy bajo de consenso entre las tres opciones.
+
+================================================================================
+PREGUNTA: ¿Quién ganó el partido de octavos de final del Mundial 2026 que terminó 1-0? Explica cómo se desarrolló el encuentro, quién marcó el único gol, en qué minuto llegó y cuáles fueron los momentos más importantes del partido.
+
+### Informe de Consenso
+
+#### Coincidencia Léxica
+- Single Agent: 0%
+- Single Agent + Tools: 0%
+- Sistema Multiagente: 100%
+
+#### Coincidencia Sintáctica
+- Single Agent: 0%
+- Single Agent + Tools: 0%
+- Sistema Multiagente: 100%
+
+#### Coincidencia Semántica
+- Single Agent: 0%
+- Single Agent + Tools: 0%
+- Sistema Multiagente: 100%
+
+### Comparación por modelo
+
+Single Agent:
+- No se encontró información relevante para la pregunta.
+
+Single Agent + Tools:
+- No se encontró información relevante para la pregunta.
+
+Multiagente:
+- El partido entre México y Inglaterra en los octavos de final del Mundial 2026 terminó con un resultado de 1-0 a favor de Inglaterra. Para detalles sobre cómo se desarrolló el encuentro, quién marcó el único gol, cuándo sucedió y los momentos más importantes del partido, recomiendo verificar una fuente de noticias deportivas confiable.
+
+### Diferencias principales
+
+* La respuesta del Sistema Multiagente proporciona información precisa sobre el resultado del partido y sugiere buscar detalles en fuentes deportivas confiables. Las otras dos respuestas no ofrecen información relevante para la pregunta.
+
+### Conclusión
+El análisis muestra que solo el modelo de Sistema Multiagente puede proporcionar información útil y precisa sobre la pregunta, lo que indica un alto nivel de consenso entre su respuesta y la realidad.

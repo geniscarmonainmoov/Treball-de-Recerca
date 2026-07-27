@@ -1,0 +1,62 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Basándote en la velocidad media del ganador de la última edición del Tour de Francia, calcula cuánto tardaría en recorrer la distancia por carretera entre Mataró y Alcañiz si mantuviera esa velocidad constante durante todo el trayecto.     Muestra todos los cálculos paso a paso e indica el resultado final en horas y minutos.
+RESPUESTA:
+Parece que no he logrado obtener los datos exactos que necesito. Sin embargo, puedo hacer una estimación basada en información general.
+
+### Velocidad media del ganador del Tour de Francia:
+La velocidad media típica de un ganador del Tour de Francia suele estar alrededor de **40 km/h** (aunque puede variar ligeramente según la edición y el recorrido).
+
+### Distancia por carretera entre Mataró y Alcañiz:
+La distancia aproximada por carretera entre Mataró y Alcañiz es de unos **500 km**.
+
+### Cálculo del tiempo:
+Usando la fórmula:
+\[
+\text{Tiempo} = \frac{\text{Distancia}}{\text{Velocidad}}
+\]
+
+1. **Dividir la distancia entre la velocidad media:**
+   \[
+   \frac{500 \text{ km}}{40 \text{ km/h}} = 12.5 \text{ horas}
+   \]
+
+2. **Convertir las horas decimales a minutos:**
+   - 0.5 horas × 60 minutos/hora = 30 minutos.
+
+### Resultado final:
+El ciclista tardaría aproximadamente **12 horas y 30 minutos** en recorrer la distancia entre Mataró y Alcañiz manteniendo una velocidad constante de 40 km/h.
+
+Si necesitas datos más precisos, te recomendaría consultar fuentes oficiales como el sitio web del Tour de Francia o herramientas de navegación como Google Maps para la distancia exacta.
+
+================================================================================
+PREGUNTA: Basándote en la velocidad media del ganador de la última edición del Tour de Francia, calcula cuánto tardaría en recorrer la distancia por carretera entre Mataró y Alcañiz si mantuviera esa velocidad constante durante todo el trayecto.     Muestra todos los cálculos paso a paso e indica el resultado final en horas y minutos.
+RESPUESTA:
+Parece que no he logrado obtener los datos exactos que necesito. Sin embargo, puedo hacer una estimación basada en información general.
+
+### Velocidad media del ganador del Tour de Francia:
+La velocidad media típica de un ganador del Tour de Francia suele estar alrededor de **40 km/h** (aunque puede variar ligeramente según la edición y el recorrido).
+
+### Distancia por carretera entre Mataró y Alcañiz:
+La distancia aproximada por carretera entre Mataró y Alcañiz es de unos **500 km**.
+
+### Cálculo del tiempo:
+Usando la fórmula:
+\[
+\text{Tiempo} = \frac{\text{Distancia}}{\text{Velocidad}}
+\]
+
+1. **Dividir la distancia entre la velocidad media:**
+   \[
+   \frac{500 \text{ km}}{40 \text{ km/h}} = 12.5 \text{ horas}
+   \]
+
+2. **Convertir las horas decimales a minutos:**
+   - 0.5 horas × 60 minutos/hora = 30 minutos.
+
+### Resultado final:
+El ciclista tardaría aproximadamente **12 horas y 30 minutos** en recorrer la distancia entre Mataró y Alcañiz manteniendo una velocidad constante de 40 km/h.
+
+Si necesitas datos más precisos, te recomendaría consultar fuentes oficiales como el sitio web del Tour de Francia o herramientas de navegación como Google Maps para la distancia exacta.

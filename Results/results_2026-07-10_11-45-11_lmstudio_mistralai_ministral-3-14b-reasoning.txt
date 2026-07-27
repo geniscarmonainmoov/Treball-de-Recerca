@@ -1,0 +1,9 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Busca el precio medio actual de la electricidad en España. ¿Cuánto costaría mantener encendido un ordenador de 850 W durante 1 año??
+RESPUESTA:
+El costo de mantener encendido un ordenador de 850 W durante 1 año, con un precio medio de la electricidad de 0,176 €/kWh, sería aproximadamente **1.492,32 € al año**. Este cálculo asume que el ordenador está encendido las 24 horas del día, todos los días del año.
+
+Si necesitas ajustar el cálculo para un uso diferente (por ejemplo, solo durante ciertas horas al día), házmelo saber.

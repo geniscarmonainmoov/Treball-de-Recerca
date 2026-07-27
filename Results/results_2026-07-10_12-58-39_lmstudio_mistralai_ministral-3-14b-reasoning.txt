@@ -1,0 +1,16 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Busca el precio actual de la gasolina 95 en España. ¿Cuánto costaría un viaje de 87.867 km con un coche que consume 6,3 L/100 km?
+RESPUESTA:
+El costo total del viaje sería de aproximadamente **8,469.50 €**.
+
+### Resumen:
+- **Consumo total:** 5,535.62 litros.
+- **Costo total:** 8,469.50 €.
+
+### Notas sobre los resultados:
+Los precios de la gasolina en España varían ligeramente según la fuente (1,530 €/L, 1,540 €/L o 1,534 €/L). Sin embargo, al usar el precio promedio de **1,530 €/L**, el cálculo es consistente y representativo. Si se usa otro precio, el costo ajustado sería:
+- Con **1,540 €/L**: **8,526.97 €**.
+- Con **1,534 €/L**: **8,503.24 €**.

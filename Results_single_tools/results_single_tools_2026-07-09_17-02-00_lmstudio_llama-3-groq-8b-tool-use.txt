@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Quien gano el partido de ayer de España vs Portugal?
+RESPUESTA:
+Portugal perdió contra España en el partido de ayer por 1-0. La victoria española se produjo en los octavos de final del Mundial 2026.

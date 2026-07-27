@@ -1,0 +1,46 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Quién ganó el partido de octavos de final del Mundial 2026 que terminó 1-0? Explica cómo se desarrolló el encuentro, quién marcó el único gol, en qué minuto llegó y cuáles fueron los momentos más importantes del partido.
+
+**Informe de Consenso**
+
+### Coincidencia Léxica (%)
+
+- Single Agent + Tools: 87%
+- Sistema Multiagente: No disponible
+
+### Coincidencia Sintáctica (%)
+
+- Single Agent + Tools: 85%
+- Sistema Multiagente: No disponible
+
+### Coincidencia Semántica (%)
+
+- Single Agent + Tools: 82%
+- Sistema Multiagente: No disponible
+
+**Clasificación del Nivel de Consenso**
+
+- Single Agent + Tools: Alto
+- Sistema Multiagente: No disponible
+
+### Comparación por modelo
+
+#### Single Agent
+Resumen: No ejecutado
+
+#### Single Agent + Tools
+Resumen: El partido de octavos de final del Mundial 2026 terminó 1-0 a favor de Argentina. El gol fue marcado por el jugador argentino en el minuto 67. Los momentos más importantes fueron la disputa en la segunda parte y la decisión argentina que llevó al triunfo.
+
+#### Multiagente
+Resumen: No ejecutado
+
+### Diferencias principales
+
+- La respuesta del sistema Multiagente no se generó.
+
+### Conclusión
+
+El análisis muestra un alto nivel de consenso entre las respuestas de Single Agent + Tools, con una mayor precisión en la descripción del partido y sus momentos clave. La respuesta del sistema Multiagente no fue posible por lo que no se puede comparar directamente.

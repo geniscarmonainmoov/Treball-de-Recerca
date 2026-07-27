@@ -1,0 +1,37 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: Quien gano el partido de ayer de España vs Portugal?
+
+## Informe de Consenso
+
+### Calculo de Coincidencia
+
+- Coincidencia léxica: 0%
+- Coincidencia sintáctica: 0%
+- Coincidencia semántica: 0%
+
+### Clasificación del Nivel de Consenso
+
+Muy bajo (0-24%)
+
+### Comparación por Modelo
+
+#### Single Agent
+No ejecutado. No hay información para generar un resumen.
+
+#### Single Agent + Tools
+Portugal perdió contra España en el partido de ayer por 1-0. La victoria española se produjo en los octavos de final del Mundial 2026. Resumen: La respuesta incluye detalles sobre la victoria española y la derrota portuguesa, pero no especifica la fecha o hora exacta.
+
+#### Multiagente
+No ejecutado. No hay información para generar un resumen.
+
+### Diferencias Principales
+
+- Single Agent + Tools tiene más contenido y detalles específicos que Single Agent.
+- Multiagente no proporcionó respuesta alguna.
+
+### Conclusión
+
+El consenso es muy bajo entre las respuestas, especialmente en lo léxico, sintáctico y semántico. La respuesta de Single Agent + Tools es la más completa y útil para entender el resultado del partido.

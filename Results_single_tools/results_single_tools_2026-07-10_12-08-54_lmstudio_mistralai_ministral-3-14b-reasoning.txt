@@ -1,0 +1,23 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Busca el precio medio actual de la electricidad en España. ¿Cuánto costaría mantener encendido un ordenador de 850 W durante 1 año??
+RESPUESTA:
+El precio medio actual de la electricidad en España es aproximadamente **0,12 € por kWh** según datos recientes de 2026.
+
+Para calcular el costo de mantener encendido un ordenador de **850 W (0,85 kW)** durante **1 año (asumiendo 24 horas al día)**, seguiremos estos pasos:
+
+1. **Calcular el consumo anual en kWh**:
+   - Potencia del ordenador: 0,85 kW
+   - Horas al día: 24
+   - Días en un año: 365
+   - Consumo anual = 0,85 kW * 24 horas * 365 días ≈ **7.536 kWh**
+
+2. **Calcular el costo anual**:
+   - Precio por kWh: 0,12 €
+   - Costo anual = 7.536 kWh * 0,12 €/kWh ≈ **904,32 €**
+
+Por lo tanto, mantener encendido un ordenador de 850 W durante un año costaría aproximadamente **904,32 €**.
+
+¿Te gustaría que verifique este cálculo o necesitas más detalles?

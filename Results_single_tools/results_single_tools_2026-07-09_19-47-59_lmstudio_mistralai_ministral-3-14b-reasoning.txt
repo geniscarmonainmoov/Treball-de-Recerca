@@ -1,0 +1,9 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿¿Qué empresa tecnológica protagonizó una de las noticias más importantes de los últimos días y qué producto presentó??
+RESPUESTA:
+Una de las empresas tecnológicas que ha protagonizado noticias importantes en 2026 es **Nvidia**. Esta empresa ha sido destacada por su innovación en chips especializados para inteligencia artificial, los cuales permiten ejecutar modelos más complejos con mayor eficiencia energética. Además, Nvidia ha estado en la vanguardia de las tendencias tecnológicas, impactando significativamente en áreas como la competitividad empresarial y la sostenibilidad.
+
+En cuanto al producto que presentó, Nvidia ha sido clave en el desarrollo de soluciones avanzadas para inteligencia artificial, incluyendo unidades de procesamiento especializadas que están transformando industrias enteras. Si necesitas detalles más específicos sobre algún producto en particular, puedo buscar información adicional. ¿Te gustaría que profundice en algo más?

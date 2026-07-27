@@ -1,0 +1,56 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Un granger té gallines i conills. En total té 35 animals i comptant les potes hi ha 94 potes. Quantes gallines i quants conills té?
+RESPUESTA:
+Para resolver este problema, seguiremos estos pasos:
+
+1. Definir variables:
+   - Sea \( g \) el número de gallines.
+   - Sea \( c \) el número de conills.
+
+2. Establecer las ecuaciones basadas en la información proporcionada:
+   - Ecuación 1: Número total de animales.
+     \[
+     g + c = 35
+     \]
+   - Ecuación 2: Número total de patas.
+     \[
+     2g + 4c = 94
+     \]
+     (Las gallines tienen 2 patas y los conills tienen 4 patas).
+
+3. Resolver el sistema de ecuaciones:
+   - De la Ecuación 1, expresamos \( g \) en términos de \( c \):
+     \[
+     g = 35 - c
+     \]
+   - Sustituimos \( g \) en la Ecuación 2:
+     \[
+     2(35 - c) + 4c = 94
+     \]
+     \[
+     70 - 2c + 4c = 94
+     \]
+     \[
+     70 + 2c = 94
+     \]
+     \[
+     2c = 24
+     \]
+     \[
+     c = 12
+     \]
+   - Ahora, sustituimos \( c = 12 \) de nuevo en la Ecuación 1 para encontrar \( g \):
+     \[
+     g + 12 = 35
+     \]
+     \[
+     g = 23
+     \]
+
+4. Conclusión:
+   - El granger tiene **23 gallines** y **12 conills**.
+
+No es necesario utilizar ningún agente para esta consulta, ya que se trata de un problema matemático que puede resolverse con operaciones básicas sin necesidad de información externa ni cálculos complejos.

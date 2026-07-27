@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Quien gano el ultimo partido de futbol de España vs Portugal?
+RESPUESTA:
+España venció a Portugal en el último partido entre ambos por los octavos de final del Mundial 2026. El gol decisivo lo marcó Mikel Merino al finalizar el partido, enviando así a España a los cuartos de final.

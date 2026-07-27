@@ -1,0 +1,10 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿¿Qué empresa automovilística anunció recientemente un nuevo modelo eléctrico con una gran autonomía y qué prestaciones ofrece??
+RESPUESTA:
+Basándome exclusivamente en los resultados proporcionados, la empresa automovilística que anunció recientemente un nuevo modelo eléctrico con gran autonomía es **Mercedes**, con su modelo **EQXX**. Este vehículo destaca por:
+
+- **Autonomía**: Más de 650 km en uso mixto.
+- **Tecnología avanzada**: Baterías de alta eficiencia y aerodinámica optimizada.

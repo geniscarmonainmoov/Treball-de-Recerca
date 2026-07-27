@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+RESPUESTA:
+Ayer, Portugal ganó el partido contra España en la final de la Nations League con un marcador de 2 (5) - 2 (3). El gol decisivo fue marcado por Cristiano Ronaldo.

@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Quién ganó el partido de octavos de final del Mundial 2026 entre dos selecciones de la península ibérica que terminó 1-0? ?
+RESPUESTA:
+Spain won the match against Portugal in the quarterfinals of the World Cup 2026 with a score of 1-0.

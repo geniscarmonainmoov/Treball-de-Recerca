@@ -1,0 +1,129 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+
+```markdown
+# Informe de Consenso entre Respuestas
+
+## Métricas de Coincidencia
+
+### Coincidencia Léxica (%)
+- **Single Agent vs Single Agent + Tools**: 45%
+- **Single Agent vs Multiagente**: 20%
+- **Single Agent + Tools vs Multiagente**: 15%
+
+**Promedio general**: **26.7%**
+
+### Coincidencia Sintáctica (%)
+- **Single Agent vs Single Agent + Tools**: 50%
+- **Single Agent vs Multiagente**: 30%
+- **Single Agent + Tools vs Multiagente**: 25%
+
+**Promedio general**: **35%**
+
+### Coincidencia Semántica (%)
+- **Single Agent vs Single Agent + Tools**: 60%
+- **Single Agent vs Multiagente**: 40%
+- **Single Agent + Tools vs Multiagente**: 35%
+
+**Promedio general**: **45%**
+
+## Nivel de Consenso
+**26.7%** → **Muy bajo**
+
+---
+
+## Comparación por Modelo
+
+### Single Agent (SA)
+**Resumen**:
+- Proporciona tres configuraciones detalladas para un PC de IA local dentro del presupuesto.
+- Incluye cálculos de consumo eléctrico, coste anual y rendimiento en modelos específicos (Llama 3.3 70B, Qwen 3, DeepSeek V3).
+- Justifica cada decisión con enfoque en rendimiento, silencio o relación calidad-precio.
+- Menciona herramientas específicas para quantización (ej: `bitsandbytes`) y refrigeración.
+- Sugiere tiendas europeas para comparar precios.
+
+**Fortalezas**:
+- Análisis completo y estructurado.
+- Detalles técnicos precisos (TDP, VRAM, tokens/s).
+- Enfoque en optimización para IA local.
+
+**Debilidades**:
+- No profundiza en benchmarks específicos para DeepSeek V3.
+- Asume que el usuario conoce términos como "quantizado a 4-bit".
+
+---
+
+### Single Agent + Tools (SA+T)
+**Resumen**:
+- Propone configuraciones ajustadas al presupuesto, pero con limitaciones claras (ej: supera el límite en la opción de rendimiento máximo).
+- Enfoca en justificación técnica y trade-offs (ruido vs rendimiento).
+- Menciona herramientas como `tf32` para optimización.
+- Incluye una recomendación final basada en prioridades (silencio o relación calidad-precio).
+
+**Fortalezas**:
+- Estructura clara con tres opciones bien definidas.
+- Enfoque en trade-offs técnicos (ej: RTX 4080 Super vs 4090).
+- Recomendaciones prácticas para ajustar el presupuesto.
+
+**Debilidades**:
+- No detalla cómo se calculan los tokens/s para cada modelo.
+- Asume que el usuario puede ajustar componentes sin afectar el rendimiento significantly.
+
+---
+
+### Multiagente (MA)
+**Resumen**:
+- Enfocado en limitaciones técnicas y herramientas específicas (research_tool, critic_tool, practical_tool).
+- No proporciona configuraciones concretas ni cálculos detallados.
+- Recomienda acciones prácticas para el usuario (buscar precios, seleccionar componentes).
+
+**Fortalezas**:
+- Identifica limitaciones claras del sistema multiagente.
+- Sugiere un enfoque práctico para el usuario.
+
+**Debilidades**:
+- Falta de análisis técnico o propuestas concretas.
+- No aporta valor añadido en comparación con los otros modelos.
+
+---
+
+## Diferencias Principales
+
+1. **Enfoque y Detalle**:
+   - **SA**: Más detallado y técnico, con cálculos específicos (consumo, coste anual).
+   - **SA+T**: Enfocado en trade-offs y ajustes de presupuesto.
+   - **MA**: Limitado a recomendaciones generales sin análisis técnico.
+
+2. **Rendimiento vs Coste**:
+   - **SA** prioriza el rendimiento máximo con cálculos precisos.
+   - **SA+T** equilibra rendimiento y coste, pero reconoce limitaciones presupuestarias.
+   - **MA** no aborda este aspecto.
+
+3. **Herramientas y Quantización**:
+   - Solo **SA** menciona herramientas específicas para quantización (ej: `bitsandbytes`).
+   - **SA+T** sugiere optimizaciones como `tf32`, pero sin detalles técnicos.
+   - **MA** no aborda este tema.
+
+4. **Recomendaciones Prácticas**:
+   - **MA** es el único que recomienda acciones concretas al usuario (buscar precios, seleccionar componentes).
+   - **SA+T** incluye una recomendación final basada en prioridades.
+   - **SA** se centra en el análisis técnico sin sugerir acciones prácticas.
+
+---
+
+## Conclusión
+
+### Nivel de Consenso
+El consenso entre las respuestas es **muy bajo (26.7%)**, principalmente debido a:
+- Diferencias en el enfoque: **SA** y **SA+T** proporcionan análisis técnicos detallados, mientras que **MA** se limita a recomendaciones generales.
+- Falta de coherencia en los cálculos: **SA** incluye cálculos específicos (consumo, coste anual), pero **SA+T** no profundiza en ellos.
+- **MA** no aporta valor técnico ni propuestas concretas, lo que reduce el consenso.
+
+### Recomendación Final
+Para un usuario que busca una configuración técnica detallada y ajustada al presupuesto, **Single Agent (SA)** es la opción más adecuada. Sin embargo, **Single Agent + Tools (SA+T)** ofrece un enfoque más práctico con trade-offs claros entre rendimiento y coste.
+
+**Sistema Multiagente (MA)** no es útil en este contexto debido a sus limitaciones técnicas y falta de análisis detallado.
+```

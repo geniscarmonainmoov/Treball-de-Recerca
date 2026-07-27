@@ -1,0 +1,12 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Un granger té gallines i conills. En total té 35 animals i comptant les potes hi ha 94 potes. Quantes gallines i quants conills té?
+RESPUESTA:
+PASO 1
+Envío la consulta al agent_3_tool para realizar los cálculos necesarios:
+
+{
+  "q": "Un granger té gallines i conills. En total té 35 animals i comptant les potes hi ha 94 potes. Quantes gallines i quants conills té?"
+}

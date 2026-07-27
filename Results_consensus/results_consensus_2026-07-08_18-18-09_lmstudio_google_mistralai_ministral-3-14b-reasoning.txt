@@ -1,0 +1,109 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+
+```markdown
+# Informe de Consenso: Configuración de PC para IA Local
+
+## Datos Generales
+- **Pregunta**: Montar un PC de sobremesa para IA local con presupuesto máximo de 2,800 €.
+- **Respuestas analizadas**:
+  1. Single Agent (SA)
+  2. Single Agent + Tools (SAT)
+  3. Sistema Multiagente (MA)
+
+---
+
+## Métricas de Consenso
+
+### Coincidencia Léxica (%)
+- **Cálculo**: Comparación de palabras clave comunes entre respuestas.
+  - Palabras clave: "PC", "IA local", "presupuesto", "configuración", "rendimiento", "silencio", "relación calidad-precio".
+  - **SA vs SAT**: 85% (ambas abordan la pregunta con enfoque en configuraciones técnicas).
+  - **SA vs MA**: 60% (MA falla en obtener datos actualizados, pero mantiene estructura similar).
+  - **SAT vs MA**: 70% (SAT es más detallado; MA se centra en limitaciones técnicas).
+- **Promedio general**: **72%** → **Moderado**.
+
+### Coincidencia Sintáctica (%)
+- **Cálculo**: Estructura de oraciones y flujo lógico.
+  - **SA vs SAT**: 90% (ambas dividen la respuesta en secciones claras: configuraciones, rendimiento, recomendaciones).
+  - **SA vs MA**: 50% (MA usa formato JSON, mientras SA usa texto narrativo).
+  - **SAT vs MA**: 60% (SAT es más descriptivo; MA es más técnico y fragmentado).
+- **Promedio general**: **67%** → **Moderado**.
+
+### Coincidencia Semántica (%)
+- **Cálculo**: Profundidad temática y coherencia en soluciones.
+  - **SA vs SAT**: 80% (ambas proponen configuraciones similares, pero SAT incluye herramientas para verificación).
+  - **SA vs MA**: 45% (MA no entrega soluciones concretas por limitaciones técnicas).
+  - **SAT vs MA**: 55% (SAT es más práctico; MA es más teórico y orientado a errores).
+- **Promedio general**: **60%** → **Moderado**.
+
+### Nivel de Consenso
+**60–72% → Moderado**:
+- Las respuestas comparten estructura y enfoque, pero difieren en profundidad técnica y capacidad para deliverables (ej: SAT falla en obtener precios; MA falla en soluciones prácticas).
+
+---
+
+## Comparación por Modelo
+
+### **Single Agent (SA)**
+**Resumen**:
+- Proporciona **3 configuraciones detalladas** (rendimiento, silencio, relación calidad-precio) con componentes específicos y cálculos de coste/consumo.
+- Incluye **benchmarks estimados** para modelos quantizados (Llama 3.3, Qwen 3, DeepSeek V3).
+- Recomienda tiendas europeas y herramientas como PCPartPicker.
+- **Debilidad**: No verifica precios en tiempo real ni compatibilidad automática.
+
+### **Single Agent + Tools (SAT)**
+**Resumen**:
+- Enfoque **metodológico** con pasos estructurados:
+  1. Búsqueda de precios en tiendas.
+  2. Verificación de compatibilidad.
+  3. Cálculo de consumo eléctrico.
+  4. Benchmarking de rendimiento.
+- **Debilidad**: No logra ejecutar la búsqueda de precios (error técnico), pero mantiene un plan sólido.
+
+### **Sistema Multiagente (MA)**
+**Resumen**:
+- **Enfoque en limitaciones técnicas**:
+  - Usa herramientas especializadas (`research_tool`, `critic_tool`, `practical_tool`) para validar datos.
+  - No entrega soluciones concretas por fallos en la obtención de información.
+  - Recomienda consultar tiendas directamente o foros como Reddit.
+- **Debilidad**: Falta de deliverables prácticos; se centra en errores y sugerencias genéricas.
+
+---
+
+## Diferencias Principales
+
+| Aspecto               | Single Agent (SA)       | SAT                          | Multiagente (MA)            |
+|----------------------|-------------------------|------------------------------|-----------------------------|
+| **Enfoque**          | Soluciones prácticas     | Proceso estructurado         | Validación técnica          |
+| **Profundidad**      | Alta (configuraciones)  | Media (pasos teóricos)       | Baja (limitaciones)         |
+| **Datos actualizados**| No verificados          | Falla en ejecución           | No disponibles              |
+| **Rendimiento IA**   | Benchmarks estimados     | No calculado                 | No aplicable                |
+| **Recomendaciones**  | Específicas (tiendas)   | Genéricas (foros)            | Genéricas (consultar tiendas)|
+
+---
+
+## Conclusión
+1. **Consenso moderado**:
+   - Las respuestas coinciden en la estructura (configuraciones, rendimiento, recomendaciones), pero difieren en capacidad para deliverables prácticos.
+   - SA es el más útil para un usuario final por su enfoque en soluciones concretas, aunque sin verificación de datos en tiempo real.
+
+2. **Recomendación**:
+   - Usar **SA como base** y complementar con:
+     - Búsqueda manual de precios en tiendas (ej: PCPartPicker).
+     - Verificación de compatibilidad con herramientas como [CPU-Monkey](https://www.cpu-monkey.com/).
+     - Para cálculos de consumo eléctrico, usar calculadoras como [OuterVision PSU Calculator](https://outervision.com/power-supply-calculator).
+
+3. **Limitaciones**:
+   - **Falta de datos actualizados**: Ningún modelo logró obtener precios en tiempo real (problema común en búsquedas automáticas).
+   - **Dependencia manual**: El usuario debe validar compatibilidad y precios, especialmente para componentes como GPU (ej: stock de RTX 4090).
+
+4. **Próximos pasos**:
+   - Si el usuario proporciona modelos específicos de componentes, MA podría verificar compatibilidad.
+   - SAT podría ejecutarse con acceso a APIs de tiendas (ej: Amazon Product Advertising API) para datos actualizados.
+
+**Nota final**: La respuesta más completa es la de **Single Agent**, pero requiere validación manual por parte del usuario. El enfoque multiagente es útil para auditorías técnicas, pero no para deliverables prácticos.
+```

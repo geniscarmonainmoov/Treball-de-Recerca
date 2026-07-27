@@ -1,0 +1,12 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+RESPUESTA:
+Ayer, España ganó el partido contra Portugal con un gol de Mikel Merino en el minuto 91. ¡Fue un gol muy importante!
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+RESPUESTA:
+Ayer, España ganó el partido contra Portugal con un gol de Mikel Merino en el minuto 91. ¡Fue un gol muy importante!

@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Qué selección ganó por 1-0 un partido de octavos de final del Mundial 2026 disputado entre dos equipos vecinos de Europa occidental, y cómo se desarrolló el encuentro?
+RESPUESTA:
+El partido entre dos equipos vecinos de Europa occidental, disputado el 4 de julio de 2026, fue ganado por Noruega con un resultado de 1-0. El encuentro se desarrolló en un estadio ubicado en Estados Unidos.

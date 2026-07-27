@@ -1,1 +1,7 @@
-lmstudio:google/mistralai/ministral-3-14b-reasoning
+lmstudio:mistralai/ministral-3-14b-reasoning
+
+
+
+
+
+

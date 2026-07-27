@@ -1,0 +1,13 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Quiero ir de Barcelona a Reikiavik gastando menos de 400 €. Compara avión directo, escalas y combinar avión + ferry. Calcula el coste total incluyendo equipaje, transporte al aeropuerto y una noche de hotel si una escala supera las 8 horas. ¿Qué opción es la más barata?
+RESPUESTA:
+To find the cheapest option for your trip from Barcelona to Reikiavik with a budget of less than 400 €, I'll need to calculate the costs including direct flights, flights with layovers, and combining airfare + ferry. Also, I will consider accommodation if the layover exceeds 8 hours. Let's start by analyzing each option:
+
+1. **Direct Flight:** Check prices for one-way tickets from Barcelona to Reikiavik, considering your budget.
+2. **Flight with Layover:** Look into flights with layovers that still fit within your budget and calculate the total cost including potential hotel stay if the layover is over 8 hours.
+3. **Combining Airfare + Ferry:** Explore ferry options from a nearby port to Reikiavik, combining this with airfare from Barcelona to that port.
+
+Please allow me to gather some information to provide you with accurate results.

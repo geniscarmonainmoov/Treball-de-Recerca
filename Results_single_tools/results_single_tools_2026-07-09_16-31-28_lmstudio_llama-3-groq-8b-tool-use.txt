@@ -1,0 +1,12 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Quiero ir al lugar más impresionante del mundo gastando poco dinero. ¿A dónde debería ir y cuánto me costaría?
+RESPUESTA:
+Vietnam is an excellent choice if you're looking for a place that offers great experiences at an affordable price. Meals from local vendors can cost as little as $1, and decent hotel rooms are available for around $14 per night. It's a great destination to travel on a budget without compromising on the quality of your experience.
+
+================================================================================
+PREGUNTA: Si saliera mañana desde Barcelona con el mínimo dinero posible, ¿hasta dónde podría llegar en 30 días?
+RESPUESTA:
+It seems there was an error in the request. Could you please clarify or provide more details about what you're trying to calculate?

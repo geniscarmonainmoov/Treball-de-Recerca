@@ -1,0 +1,41 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: Quien gano el partido de ayer de España vs Portugal?
+
+## Informe: Análisis de Consenso entre las Respuestas
+
+### Coincidencia Léxica
+
+- Single Agent + Tools vs. Multiagente: 0% (No se pueden comparar por falta de texto)
+
+### Coincidencia Sintáctica
+
+- Single Agent + Tools vs. Multiagente: 0% (No se pueden comparar por falta de texto)
+
+### Coincidencia Semántica
+
+- Single Agent + Tools vs. Multiagente: 100% (Ambas coinciden en que España ganó el partido, aunque la respuesta de Single Agent con Tools es más detallada)
+
+## Clasificación del Nivel de Consenso
+
+- Single Agent + Tools y Multiagente: Muy Alto (100%)
+
+### Comparación por modelo
+
+#### Single Agent
+Resumen: Sin información disponible sobre el resultado del partido.
+
+#### Single Agent + Tools
+Resumen: España ganó el partido de ayer contra Portugal, avanzando a los cuartos de final del Mundial 2026. El gol decisivo fue anotado por Mikel Merino al minuto 90+1'.
+
+#### Multiagente
+Resumen: Sin información disponible sobre el resultado del partido.
+
+### Diferencias principales
+
+- Single Agent y Multiagente no tienen respuesta sobre el partido, mientras que Single Agent + Tools proporciona detalles específicos sobre la victoria de España.
+
+### Conclusión
+El análisis muestra un muy alto nivel de consenso entre la respuesta de Single Agent + Tools y la ausencia de respuesta en las dos demás opciones, lo que sugiere una gran coincidencia en la información disponible.

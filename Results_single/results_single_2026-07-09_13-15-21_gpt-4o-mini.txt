@@ -1,0 +1,54 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+RESPUESTA:
+Lamentablemente, no puedo buscar información actualizada o hacer comparaciones de precios en tiempo real. Sin embargo, puedo ofrecerte algunos consejos sobre cómo montar un PC para IA local y qué componentes son recomendables.
+
+1. **Componentes**:
+   - **CPU**: Busca una CPU potente como el AMD Ryzen 9 5900X o el Intel Core i9-11900K.
+   - **GPU**: Para tareas de IA, una GPU como la NVIDIA RTX 3080 o RTX 3090 sería ideal.
+   - **Placa base**: Asegúrate de que es compatible con tu CPU y tiene soporte para el número de puertos deseado.
+   - **RAM**: Al menos 32 GB, preferiblemente 64 GB para cargas de trabajo más intensivas.
+   - **Fuente de alimentación**: De al menos 750W, con certificación de eficiencia (80 Plus Gold o superior).
+   - **Caja**: Que tenga un buen flujo de aire y espacio para la GPU.
+
+2. **Compatibilidad**: Puedes usar herramientas en línea como PCPartPicker para verificar la compatibilidad de los componentes.
+
+3. **Consumo eléctrico**: Estima el consumo total (CPU, GPU, etc.) y multiplícalo por el coste del kWh en España para calcular el coste anual.
+
+4. **Rendimiento**: La comparación del rendimiento de Llama 3.3, Qwen 3 y DeepSeek V3 variará según los componentes, así que investiga benchmarks específicos para esos modelos.
+
+5. **Configuraciones**:
+   - **Rendimiento**: Enfocarse en componentes más potentes como la RTX 3090.
+   - **Silencio**: Escoger componentes conocidos por su bajo ruido y utilizar refrigeración líquida.
+   - **Relación calidad-precio**: Priorizar un equilibrio entre rendimiento y presupuesto, como opciones de la serie RTX 3060 o 3070.
+
+Para obtener precios y configuraciones específicas, te recomiendo visitar tiendas en línea como Amazon, Newegg, o tiendas locales de informática.
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+RESPUESTA:
+Lamentablemente, no puedo buscar información actualizada o hacer comparaciones de precios en tiempo real. Sin embargo, puedo ofrecerte algunos consejos sobre cómo montar un PC para IA local y qué componentes son recomendables.
+
+1. **Componentes**:
+   - **CPU**: Busca una CPU potente como el AMD Ryzen 9 5900X o el Intel Core i9-11900K.
+   - **GPU**: Para tareas de IA, una GPU como la NVIDIA RTX 3080 o RTX 3090 sería ideal.
+   - **Placa base**: Asegúrate de que es compatible con tu CPU y tiene soporte para el número de puertos deseado.
+   - **RAM**: Al menos 32 GB, preferiblemente 64 GB para cargas de trabajo más intensivas.
+   - **Fuente de alimentación**: De al menos 750W, con certificación de eficiencia (80 Plus Gold o superior).
+   - **Caja**: Que tenga un buen flujo de aire y espacio para la GPU.
+
+2. **Compatibilidad**: Puedes usar herramientas en línea como PCPartPicker para verificar la compatibilidad de los componentes.
+
+3. **Consumo eléctrico**: Estima el consumo total (CPU, GPU, etc.) y multiplícalo por el coste del kWh en España para calcular el coste anual.
+
+4. **Rendimiento**: La comparación del rendimiento de Llama 3.3, Qwen 3 y DeepSeek V3 variará según los componentes, así que investiga benchmarks específicos para esos modelos.
+
+5. **Configuraciones**:
+   - **Rendimiento**: Enfocarse en componentes más potentes como la RTX 3090.
+   - **Silencio**: Escoger componentes conocidos por su bajo ruido y utilizar refrigeración líquida.
+   - **Relación calidad-precio**: Priorizar un equilibrio entre rendimiento y presupuesto, como opciones de la serie RTX 3060 o 3070.
+
+Para obtener precios y configuraciones específicas, te recomiendo visitar tiendas en línea como Amazon, Newegg, o tiendas locales de informática.

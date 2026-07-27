@@ -1,0 +1,18 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿¿Qué empresa protagonizó una de las noticias tecnológicas más importantes de los últimos días y qué presentó??
+RESPUESTA:
+Según los resultados de búsqueda, **Apple** ha sido una de las empresas más destacadas en noticias tecnológicas en 2026. En su conferencia **WWDC 2026**, Apple presentó varios anuncios clave, entre ellos:
+
+1. **Siri AI renovada con inteligencia artificial generativa**: Una versión mejorada de Siri que incorpora modelos de lenguaje avanzados, similar a los utilizados por Google.
+2. **Nuevos sistemas operativos**:
+   - **iOS 27**
+   - **macOS Golden Gate**
+   - **watchOS 27**
+   - **visionOS 27**
+3. **Apple Intelligence**: Una nueva generación de herramientas de inteligencia artificial integradas en sus dispositivos.
+4. **Mejoras en software**: Incluyendo controles parentales potenciados y actualizaciones significativas en iOS, iPadOS, macOS, watchOS, visionOS y tvOS.
+
+Estos avances han generado gran expectativa y son considerados como algunos de los más importantes del año en el ámbito tecnológico. ¿Te gustaría más detalles sobre alguno de estos anuncios?

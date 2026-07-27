@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Quién ganó el partido de octavos de final del Mundial 2026 que terminó 1-0? Explica cómo se desarrolló el encuentro, quién marcó el único gol, en qué minuto llegó y cuáles fueron los momentos más importantes del partido.
+RESPUESTA:
+The match between Morocco and Canada in the quarterfinals of the World Cup 2026 ended with a score of 1-0 in favor of Morocco. The decisive goal was scored by a Moroccan player in the second half, marking a crucial moment in the game. This victory propelled Morocco to the next round, where they faced off against another strong opponent.

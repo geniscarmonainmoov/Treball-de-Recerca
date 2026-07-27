@@ -1,0 +1,12 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quien gano anteayer el partido España vs Portugal."
+RESPUESTA:
+El partido entre España y Portugal **anteayer** terminó con victoria de **España por 1-0**. Fue un partido del Mundial 2026, donde España controló bien la posesión y logró el gol en una jugada clave. ¡Buen resultado para el equipo!
+
+================================================================================
+PREGUNTA: "Quien gano anteayer el partido España vs Portugal."
+RESPUESTA:
+El partido entre España y Portugal **anteayer** terminó con victoria de **España por 1-0**. Fue un partido del Mundial 2026, donde España controló bien la posesión y logró el gol en una jugada clave. ¡Buen resultado para el equipo!

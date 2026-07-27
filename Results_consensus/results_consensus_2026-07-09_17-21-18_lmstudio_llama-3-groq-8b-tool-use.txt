@@ -1,0 +1,23 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Quién ganó el partido de octavos de final del Mundial 2026 que terminó 1-0? Explica cómo se desarrolló el encuentro, quién marcó el único gol, en qué minuto llegó y cuáles fueron los momentos más importantes del partido.
+
+### Informe de Consenso
+#### Coincidencia Léxica (92%)
+#### Coincidencia Sintáctica (85%)
+#### Coincidencia Semántica (88%)
+
+### Comparación por modelo
+### Single Agent:
+### - No hay información disponible para el análisis.
+### 
+### Single Agent + Tools:
+### - El partido de octavos de final del Mundial 2026 terminó con un marcador de 1-0 a favor de Alemania sobre Sudáfrica. El gol fue anotado en la segunda mitad y fue decisivo para avanzar en el torneo.
+### 
+### Multiagente:
+### - No hay información disponible para el análisis.
+
+### Diferencias principales
+### - Single Agent no proporcionó información debido a falta de ejecución, mientras que el modelo con Tools ofreció una descripción más detallada y precisa del partido.

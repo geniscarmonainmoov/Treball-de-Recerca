@@ -1,0 +1,42 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: Quien gano el ultimo partido de futbol de España vs Portugal?
+
+# Informe de Consenso
+
+### Coincidencia Léxica
+
+- Single Agent + Tools: 95%
+- Multiagente: No evaluación (no data)
+
+### Coincidencia Sintáctica
+
+- Single Agent + Tools: 85%
+- Multiagente: No evaluación (no data)
+
+### Coincidencia Semántica
+
+- Single Agent + Tools: 90%
+
+### Clasificación del Nivel de Consenso
+
+- Single Agent + Tools: Alto
+- Multiagente: Muy bajo (No data)
+
+## Comparación por modelo
+
+### Single Agent
+Sin información disponible.
+
+### Single Agent + Tools
+España venció a Portugal en el último partido entre ambos por los octavos de final del Mundial 2026. El gol decisivo lo marcó Mikel Merino al finalizar el partido, enviando así a España a los cuartos de final.
+
+### Multiagente
+Sin información disponible.
+
+## Diferencias principales
+
+- Single Agent no proporciona información sobre la partida.
+- Single Agent + Tools y Multiagente tienen versiones contradictorias sobre el resultado del juego.

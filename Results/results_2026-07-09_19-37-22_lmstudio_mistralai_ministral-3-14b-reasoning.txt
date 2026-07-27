@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿¿Qué empresa protagonizó una de las noticias tecnológicas más importantes de los últimos días y qué presentó??
+RESPUESTA:
+Una de las noticias tecnológicas más importantes de los últimos días fue protagonizada por **Microsoft**, que presentó una nueva división enfocada en inteligencia artificial (IA) para empresas, con una inversión de 2.500 millones de dólares.

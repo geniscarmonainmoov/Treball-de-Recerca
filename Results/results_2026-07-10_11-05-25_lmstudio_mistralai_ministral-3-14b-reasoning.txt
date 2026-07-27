@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Busca el precio medio actual de la electricidad en España. ¿Cuánto costaría mantener encendido un ordenador de 850 W durante 24 horas??
+RESPUESTA:
+El costo de mantener encendido un ordenador de 850 W durante 24 horas con un precio medio de la electricidad de 0,175 €/kWh sería aproximadamente **3,57 €**.

@@ -1,0 +1,9 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Busca el precio medio actual de la electricidad en España. ¿Cuánto costaría mantener encendido un ordenador de 850 W durante 1 año??
+RESPUESTA:
+Parece que hay una discrepancia significativa en los precios reportados para la electricidad en España en 2026. Algunos fuentes mencionan precios en euros por kilovatio-hora (€/kWh), como 0.1761 €/kWh, mientras que otros hablan de precios en euros por megavatio-hora (€/MWh), como 45.90 €/MWh o 95.35 €/MWh.
+
+Para calcular el costo anual de mantener encendido un ordenador de 850 W durante 1 año, es necesario aclarar cuál es el precio correcto y en qué unidad se expresa (€/kWh o €/MWh). Por favor, verifica la información o proporciona más detalles para realizar el cálculo de manera precisa.

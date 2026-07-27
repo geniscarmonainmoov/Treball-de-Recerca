@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Qué selección ganó por 1-0 un partido de octavos de final del Mundial 2026 disputado entre dos equipos vecinos de Europa occidental, y cómo se desarrolló el encuentro?
+RESPUESTA:
+The match between two neighboring teams in Western Europe that won by 1-0 in the quarterfinals of the 2026 World Cup was between France and Paraguay.

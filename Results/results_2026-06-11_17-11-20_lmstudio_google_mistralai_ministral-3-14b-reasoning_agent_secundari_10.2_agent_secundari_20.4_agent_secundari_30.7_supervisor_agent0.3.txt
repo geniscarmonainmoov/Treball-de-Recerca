@@ -16,8 +16,8 @@ PREGUNTA: Què passa si menges llavors de síndria?
 --------------------------------------------------------------------------------
 RESPUESTA:
 resposta_final:
-
-Les llavors de síndria són segures i nutritives, amb múltiples beneficis per a la salut. Són riques en àcids grassos omega-3, proteïnes, fibra i antioxidanats, com l'àcid rosmarínic, que ajuden a reducir la inflamación y mejoran la salud cardiovascular. Se pueden consumir de manera directa, en batidos, yogures o ensaladas, aportando un 25% de la ingesta diaria recomendada de omega-3, un 10% de proteínas y un 15% de fibra por cullerada de postres (aproximadamente 10 gramos). No se han identificado efectos adversos en personas sin alergias, aunque siempre es recomendable consultar a un profesional de la salud si tienes dudas. Son una excelente opción para dietas veganas o vegetarianas y pueden incorporarse fácilmente a la alimentación diaria.
+Les llavors de síndria són segures i nutritives, amb múltiples beneficis per a la salut. Són riques en àcids grassos omega-3, proteïnes, fibra i antioxidanats, com l'àcid rosmarínic, que ajuden a reducir la inflamación y mejoran la salud cardiovascular. Se pueden consumir de manera directa, en batidos, yogures o ensaladas, aportando un 25% de la ingesta diaria recomendada de omega-3, un 10% de proteínas y un 15% de fibra por cullerada de postres (aproximadamente 10 gramos). No se han identificado efectos adversos en personas sin alergias, aunque siempre es recomendable consultar a un profesional de la salud si tienes dudas. Son una excelente opción para dietas veganas o vegetarianas y pueden incorporarse fácilmente a la alimentación d
+iaria.
 ================================================================================
 
 ================================================================================

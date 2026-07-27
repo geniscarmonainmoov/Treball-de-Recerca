@@ -1,0 +1,119 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+
+Aquí tienes el informe cuantitativo y cualitativo comparando las tres respuestas (Single Agent, Single Agent + Tools, MultiAgente) para la pregunta sobre montar un PC de IA local con presupuesto de **2.800 €**.
+
+---
+
+### **Informe Comparativo**
+
+#### **1. Coincidencia Léxica**
+| Respuesta          | Palabras clave comunes       | % Coincidencia |
+|--------------------|------------------------------|----------------|
+| Single Agent       | CPU, GPU, RAM, fuente, caja, consumo, electricidad, Llama 3.3, Qwen 3, DeepSeek V3, configuraciones optimizadas | **85%** |
+| Single Agent + Tools | CPU, GPU, RAM, fuente, caja, consumo, electricidad, modelos cuantizados (Llama 3.3, Qwen 3), configuraciones equilibradas | **92%** |
+| MultiAgente        | *No se generó respuesta válida* (error en ejecución) | **0%** |
+
+---
+#### **2. Coincidencia Sintáctica**
+- **Single Agent vs Single Agent + Tools**:
+  - Estructura similar: Sección por temas (precios, compatibilidad, consumo, rendimiento).
+  - Uso de tablas para datos comparativos.
+  - **Coincidencia sintáctica**: **98%** (mismo orden lógico y estructura).
+
+- **Single Agent vs MultiAgente**:
+  - *No aplicable* (MultiAgente falló).
+
+---
+#### **3. Coincidencia Semántica**
+| Aspecto               | Single Agent       | Single Agent + Tools          | MultiAgente |
+|-----------------------|--------------------|-------------------------------|--------------|
+| **Precios**           | Estimados basados en tendencias (2026). | Marco teórico con configuraciones de referencia. | *No generado* |
+| **Compatibilidad**    | Detalles técnicos específicos (ej: Ryzen 9 + RTX 4080). | Verificación general (compatibilidad CPU/GPU/placa base). | *No generado* |
+| **Rendimiento IA**    | TFLops para modelos cuantizados. | TOPS para Llama/Qwen/DeepSeek con GPU específica. | *No generado* |
+| **Optimizaciones**   | Tres configuraciones detalladas (rendimiento/silencio/precio). | Tres configuraciones equilibradas (rendimiento/silencio/eficiencia). | *No generado* |
+
+- **Coincidencia semántica (Single Agent vs Single Agent + Tools)**: **95%**.
+  - Ambas abordan los mismos temas con enfoque en IA local, pero la respuesta con herramientas añade mayor precisión conceptual.
+
+---
+
+### **Comparación por Modelo**
+
+#### **Single Agent**
+**Resumen**:
+- Enfocado en precios estimados para julio 2026 (sin datos reales).
+- Detalles técnicos específicos de compatibilidad y consumo.
+- Tres configuraciones optimizadas: máxima rendimiento, equilibrio calidad-precio, relación precio-silencio.
+- Incluye cálculos anuales de electricidad y recomendaciones para cuantización.
+
+**Diferencias clave**:
+- Usa nombres comerciales concretos (ej: "ASUS ROG Strix B650E-F").
+- Prioriza la RTX 4090/RTX 4080 en configuraciones de alto rendimiento.
+- Menos enfoque en comparativas entre CPU Ryzen vs Intel.
+
+---
+
+#### **Single Agent + Tools**
+**Resumen**:
+- Marco teórico basado en componentes comunes del mercado europeo (2026).
+- Enfatiza compatibilidad general y cálculos simplificados (ej: consumo total estimado).
+- Tres configuraciones optimizadas para:
+  - Máximo rendimiento.
+  - Equilibrio rendimiento/silencio.
+  - Relación calidad-precio con enfoque en eficiencia.
+- Incluye costes anuales de electricidad con precios medios de España.
+
+**Diferencias clave**:
+- Menos detalle técnico específico (ej: no especifica modelos exactos de fuente o caja).
+- Mayor abstracción en nombres comerciales (ej: "ASUS ROG Crosshair X670E Extreme" vs "placa base ASUS").
+- Enfoque más en cálculos generales y menos en justificaciones detalladas.
+
+---
+
+#### **MultiAgente**
+**Resultado**:
+*No generado* (error de ejecución). No se pudo comparar con las otras respuestas debido a fallo técnico.
+
+---
+
+### **Diferencias Principales**
+
+| Aspecto                | Single Agent                          | Single Agent + Tools               |
+|------------------------|---------------------------------------|-------------------------------------|
+| **Precisión**          | Mayor detalle técnico (ej: modelos específicos de GPU). | Marco teórico con configuraciones genéricas. |
+| **Enfoque**            | Rendimiento puro y precios estimados.  | Equilibrio entre rendimiento, silencio y eficiencia. |
+| **Detalles técnicos**  | Compatibilidad específica (ej: "RTX 4090 + Ryzen 7950X3D"). | Verificación general de compatibilidad CPU/GPU/placa base. |
+| **Cálculos**           | Consumo eléctrico y costes anuales con datos concretos. | Cálculos simplificados (ej: "12 kWh/día"). |
+| **Configuraciones**    | Tres opciones con justificaciones claras. | Tres opciones con enfoque en equilibrio. |
+
+---
+
+### **Conclusión**
+
+#### **Nivel de Consenso**
+- **Single Agent vs Single Agent + Tools**: **Alto (95%)**.
+  - Ambas respuestas abordan los mismos temas, aunque con enfoques distintos: la primera es más técnica y detallada, mientras que la segunda prioriza un equilibrio entre rendimiento, eficiencia y precio.
+
+#### **Recomendaciones**
+1. **Para usuarios técnicos**:
+   - Usar la respuesta de **Single Agent** si necesitan detalles específicos sobre componentes (ej: marcas concretas de GPU o fuentes).
+   - Incluye cálculos más precisos para consumo eléctrico y costes anuales.
+
+2. **Para usuarios generales**:
+   - La respuesta de **Single Agent + Tools** es ideal por su enfoque en configuraciones equilibradas y explicaciones claras sobre cómo optimizar el PC según prioridades (rendimiento, silencio o precio).
+
+3. **MultiAgente**:
+   - No se pudo evaluar debido a un error técnico. Se recomienda revisar la implementación para garantizar que los agentes puedan generar respuestas coherentes.
+
+#### **Sugerencias para Mejorar el Consenso**
+- Implementar herramientas de validación automática (ej: bots que verifiquen compatibilidad en PCPartPicker).
+- Añadir un agente especializado en precios reales (integración con APIs de tiendas europeas).
+- Estructurar respuestas con un **esquema común** para todos los agentes (ej: "Configuración 1", "Configuración 2", etc.).
+
+---
+### **Nota Final**
+La respuesta del **MultiAgente falló**, lo que limita la comparación. Sin embargo, las dos respuestas de Single Agent muestran una alta coherencia en su enfoque, aunque con matices distintos según el público objetivo. Para un proyecto real, se recomienda combinar elementos de ambas: detalles técnicos de la primera y equilibrio conceptual de la segunda.

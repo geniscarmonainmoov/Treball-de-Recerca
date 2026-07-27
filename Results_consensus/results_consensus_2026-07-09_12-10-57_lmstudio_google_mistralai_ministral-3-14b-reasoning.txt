@@ -1,0 +1,142 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+
+```markdown
+# Informe de Consenso entre Respuestas
+
+## Métricas de Coincidencia
+
+### Coincidencia Léxica (%)
+- **Single Agent vs. Single Agent + Tools**: 10%
+  - *Explicación*: Ambas respuestas comparten términos como "PC", "IA local", "presupuesto", pero no hay coincidencia en detalles técnicos o precios.
+- **Single Agent vs. Multiagente**: 35%
+  - *Explicación*: Coinciden en la estructura de configuraciones (rendimiento, silencio, relación calidad-precio) y términos como "NVIDIA RTX 4090", pero difieren en detalles.
+- **Single Agent + Tools vs. Multiagente**: 20%
+  - *Explicación*: Ambas mencionan limitaciones técnicas, pero no hay coincidencia en propuestas concretas.
+
+**Promedio general**: **21.67%**
+
+### Coincidencia Sintáctica (%)
+- **Single Agent vs. Single Agent + Tools**: 5%
+  - *Explicación*: Ambas respuestas son narrativas, pero la estructura difiere (una es detallada, la otra es una nota de limitaciones).
+- **Single Agent vs. Multiagente**: 20%
+  - *Explicación*: Coinciden en la división en configuraciones (A, B, C), pero el Multiagente no desarrolla tanto.
+- **Single Agent + Tools vs. Multiagente**: 15%
+  - *Explicación*: Ambas mencionan limitaciones, pero el Multiagente propone soluciones parciales.
+
+**Promedio general**: **13.33%**
+
+### Coincidencia Semántica (%)
+- **Single Agent vs. Single Agent + Tools**: 0%
+  - *Explicación*: Una propone configuraciones detalladas; la otra solo menciona limitaciones.
+- **Single Agent vs. Multiagente**: 45%
+  - *Explicación*: Ambas coinciden en el enfoque de configuraciones (rendimiento, silencio, relación calidad-precio) y términos clave como "NVIDIA RTX 4090" o "AMD Ryzen".
+- **Single Agent + Tools vs. Multiagente**: 30%
+  - *Explicación*: Ambas mencionan limitaciones técnicas, pero el Multiagente propone soluciones parciales.
+
+**Promedio general**: **28.33%**
+
+---
+
+## Nivel de Consenso
+**Promedio ponderado (Léxica: 40%, Sintáctica: 30%, Semántica: 30%)**:
+- Léxica: 21.67%
+- Sintáctica: 13.33%
+- Semántica: 28.33%
+**Total**: **22.5%**
+
+**Clasificación**: **Muy bajo (0–24%)**.
+
+---
+
+## Comparación por Modelo
+
+### Single Agent
+**Resumen**:
+Proporciona tres configuraciones detalladas para un PC de IA local, con cálculos de consumo eléctrico y coste anual en España. Incluye justificaciones técnicas, recomendaciones de software y herramientas para quantización (ej. `vLLM`). La respuesta es completa pero asume datos no verificados (precios en 10 tiendas).
+
+**Fortalezas**:
+- Detalle técnico alto.
+- Cálculos de consumo y coste anual.
+- Recomendaciones prácticas.
+
+**Debilidades**:
+- No verifica precios ni disponibilidad real.
+- Asume configuraciones sin confirmar compatibilidad.
+
+---
+
+### Single Agent + Tools
+**Resumen**:
+Reconoce limitaciones técnicas para cumplir con los requisitos (precios en 10 tiendas, IVA, envío). Propone una solución parcial con datos incompletos y recomienda al usuario verificar manualmente. No incluye configuraciones detalladas.
+
+**Fortalezas**:
+- Transparencia sobre limitaciones.
+- Recomendación de fuentes externas (PCPartPicker, foros).
+
+**Debilidades**:
+- Falta de propuestas concretas.
+- No aporta datos útiles para avanzar en la tarea.
+
+---
+
+### Multiagente
+**Resumen**:
+Integra respuestas parciales de otros agentes y propone configuraciones basadas en datos limitados. Divide el trabajo entre roles (Research, Critic, Practical) pero no completa los cálculos pendientes (consumo eléctrico, rendimiento en modelos de IA). Solicita al usuario datos adicionales.
+
+**Fortalezas**:
+- Enfoque colaborativo.
+- Estructura clara con roles definidos.
+
+**Debilidades**:
+- Respuesta incompleta.
+- Depende de datos externos no proporcionados.
+
+---
+
+## Diferencias Principales
+
+1. **Enfoque**:
+   - *Single Agent*: Proporciona soluciones completas (aunque basadas en suposiciones).
+   - *Single Agent + Tools*: Se centra en limitaciones técnicas y recomienda acciones externas.
+   - *Multiagente*: Intenta integrar respuestas pero queda incompleto.
+
+2. **Detalle técnico**:
+   - Solo el *Single Agent* incluye cálculos de consumo, coste anual y rendimiento en modelos de IA (Llama 3.3, Qwen 3, DeepSeek V3).
+   - Los otros dos modelos no desarrollan estos aspectos o los dejan pendientes.
+
+3. **Transparencia**:
+   - *Single Agent + Tools* y *Multiagente* son más transparentes sobre sus limitaciones.
+   - El *Single Agent* asume datos sin verificarlos, lo que puede llevar a errores.
+
+4. **Estructura**:
+   - *Single Agent*: Narrativa lineal con configuraciones A, B, C.
+   - *Multiagente*: Estructura por roles (Research, Critic, Practical), pero menos coherente en la práctica.
+
+---
+
+## Conclusión
+
+### Nivel de Consenso
+El consenso es **muy bajo (22.5%)**, principalmente debido a:
+- Diferencias en el enfoque (soluciones vs. limitaciones).
+- Falta de datos verificables en dos de las tres respuestas.
+- Incompletud en la respuesta del *Multiagente*.
+
+### Recomendación
+Para obtener una respuesta útil, se sugiere:
+1. **Priorizar el *Single Agent***: Aunque asume datos no verificados, es la única respuesta que proporciona soluciones concretas y cálculos detallados.
+2. **Complementar con el *Multiagente***: Su enfoque colaborativo puede ser útil para validar configuraciones o identificar posibles errores en la propuesta del *Single Agent*.
+3. **Evitar el *Single Agent + Tools***: No aporta datos accionables ni soluciones, solo limita el alcance de la tarea.
+
+### Acciones Futuras
+- **Verificar precios y disponibilidad**: Usar herramientas como [PCPartPicker](https://pcpartpicker.com/) o foros especializados.
+- **Aclarar requisitos**: Definir modelos exactos para quantización (ej. 4-bit vs. 8-bit) y preferencias de hardware (NVIDIA vs. AMD).
+- **Solicitar datos adicionales al usuario**: Por ejemplo, valores de consumo en vatios de componentes clave o tiendas específicas a consultar.
+
+**Nota final**:
+La tarea requiere datos externos no disponibles en las respuestas proporcionadas. Se recomienda al usuario complementar la información con fuentes primarias (tiendas, benchmarks) para obtener resultados precisos.
+```

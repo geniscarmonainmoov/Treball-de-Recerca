@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Que dia es hoy?"
+RESPUESTA:
+Hoy es **jueves, 2 de octubre de 2024**. ¿Necesitas alguna otra información?

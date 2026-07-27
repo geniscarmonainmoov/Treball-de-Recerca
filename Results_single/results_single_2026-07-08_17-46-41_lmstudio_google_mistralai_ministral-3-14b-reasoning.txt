@@ -1,0 +1,12 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quien gano anteayer el partido España vs Portugal."
+RESPUESTA:
+Anteayer, el 6 de julio de 2026, España ganó el partido contra Portugal con un marcador de 3-1. Fue una victoria clara para *La Roja*. ¿Necesitas más detalles?
+
+================================================================================
+PREGUNTA: "Quien gano anteayer el partido España vs Portugal."
+RESPUESTA:
+Anteayer, el 6 de julio de 2026, España ganó el partido contra Portugal con un marcador de 3-1. Fue una victoria clara para *La Roja*. ¿Necesitas más detalles?

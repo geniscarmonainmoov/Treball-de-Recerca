@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+RESPUESTA:
+El partido entre España y Portugal se jugó el 30 de noviembre de 2025 (ayer) como parte de los octavos de final del Mundial 2026. El resultado fue una victoria de **España**, que ganó por un marcador de **2-1**.

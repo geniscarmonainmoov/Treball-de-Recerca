@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Qué selección ganó por 1-0 un partido de octavos de final del Mundial 2026 disputado entre dos equipos vecinos de Europa occidental, y cómo se desarrolló el encuentro?
+RESPUESTA:
+El partido entre dos equipos vecinos de Europa occidental en los octavos de final del Mundial 2026 fue entre España y Portugal. La selección española ganó por un marcador de 1-0, clasificando así para la siguiente ronda. El encuentro se desarrolló con una gran intensidad y estrategia por parte de ambos equipos, pero al final el gol de Álvaro Morata en el segundo tiempo decidió el partido a favor de España.

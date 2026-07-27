@@ -1,0 +1,12 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Basándote en la velocidad media del ganador de la última edición del Tour de Francia, calcula cuánto tardaría en recorrer la distancia por carretera entre Mataró y Alcañiz si mantuviera esa velocidad constante durante todo el trayecto.     Muestra todos los cálculos paso a paso e indica el resultado final en horas y minutos.
+RESPUESTA:
+ERROR: status_code: 400, model_name: openai/google/mistralai/ministral-3-14b-reasoning, body: litellm.BadRequestError: OpenAIException - No models loaded. Please load a model in the developer page or use the 'lms load' command.
+
+================================================================================
+PREGUNTA: Basándote en la velocidad media del ganador de la última edición del Tour de Francia, calcula cuánto tardaría en recorrer la distancia por carretera entre Mataró y Alcañiz si mantuviera esa velocidad constante durante todo el trayecto.     Muestra todos los cálculos paso a paso e indica el resultado final en horas y minutos.
+RESPUESTA:
+ERROR: status_code: 400, model_name: openai/google/mistralai/ministral-3-14b-reasoning, body: litellm.BadRequestError: OpenAIException - No models loaded. Please load a model in the developer page or use the 'lms load' command.

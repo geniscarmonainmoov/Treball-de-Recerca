@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+RESPUESTA:
+Ayer, España ganó el partido contra Portugal con un marcador de **1-0**. El gol fue anotado por **Mikel Merino** en el minuto 91, lo que permitió a España clasificar para cuartos de final del Mundial.

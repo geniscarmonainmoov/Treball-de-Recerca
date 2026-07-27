@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Quién ganó el partido de octavos de final del Mundial 2026 que terminó 1-0? Explica cómo se desarrolló el encuentro, quién marcó el único gol, en qué minuto llegó y cuáles fueron los momentos más importantes del partido.
+RESPUESTA:
+El gol único fue marcado por Jude Bellingham en el minuto 45 del partido entre México e Inglaterra. Los momentos más importantes del partido fueron la oportunidad de México para marcar antes del gol inglés y la defensa firme de Inglaterra que evitó cualquier otro gol.

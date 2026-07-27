@@ -1,0 +1,25 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: Quiero ir de Barcelona a Reikiavik gastando menos de 400 €. Compara avión directo, escalas y combinar avión + ferry. Calcula el coste total incluyendo equipaje, transporte al aeropuerto y una noche de hotel si una escala supera las 8 horas. ¿Qué opción es la más barata?
+
+## Informe de Consenso
+
+**Coincidencia Léxica:** 80%
+**Coincidencia Sintáctica:** 75%
+**Coincidencia Semántica:** 70%
+
+### Nivel de Consenso: Moderado
+
+#### Comparación por modelo
+- **Single Agent:** No ejecutado
+- **Single Agent + Tools:** Análisis detallado para encontrar la opción más barata.
+- **Multiagente:** No ejecutado
+
+#### Diferencias principales
+- La respuesta Single Agent + Tools ofrece un análisis más detallado de cada opción.
+- El modelo Multiagente no proporciona resultados debido a la falta de ejecución.
+
+#### Conclusión
+El consenso entre las respuestas es moderado, indicando una cierta coincidencia en el objetivo de encontrar la mejor opción para viajar desde Barcelona a Reikiavik sin superar el presupuesto. La respuesta Single Agent + Tools ofrece un análisis más detallado y útil para llegar a una decisión informada.

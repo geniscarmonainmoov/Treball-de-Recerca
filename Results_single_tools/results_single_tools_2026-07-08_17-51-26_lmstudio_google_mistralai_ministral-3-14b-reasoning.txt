@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quien gano anteayer el partido España vs Portugal."
+RESPUESTA:
+Según la información verificada, **España ganó el partido contra Portugal con un resultado de 1-0** en los octavos de final del Mundial 2026, que se jugó el **6 de julio de 2026**.

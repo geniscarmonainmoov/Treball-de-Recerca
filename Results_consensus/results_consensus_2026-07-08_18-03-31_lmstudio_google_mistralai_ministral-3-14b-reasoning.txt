@@ -1,0 +1,127 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+
+```markdown
+# Informe de Consenso entre Respuestas
+
+## Métricas de Coincidencia
+
+### Coincidencia Léxica (%)
+- **Single Agent vs Single Agent + Tools**: ~15%
+  - Ambas respuestas comparten términos como "configuración", "presupuesto", "GPU", "RAM", pero la segunda es más breve y enfocada en limitaciones.
+- **Single Agent vs Multiagente**: ~20%
+  - Comparten conceptos clave ("RTX 4090", "presupuesto", "configuraciones"), pero el multiagente es más técnico y usa herramientas específicas (research_tool, critic_tool).
+- **Single Agent + Tools vs Multiagente**: ~10%
+  - Menor solapamiento léxico; la segunda es más descriptiva de procesos que la primera.
+
+**Promedio general**: **~15%**
+
+### Coincidencia Sintáctica (%)
+- **Single Agent vs Single Agent + Tools**: ~25%
+  - Estructuras similares (listas, tablas), pero la segunda es más fragmentada y menos detallada.
+- **Single Agent vs Multiagente**: ~30%
+  - Ambas usan listas y tablas, pero el multiagente incluye formatos más técnicos (ej: `research_tool`).
+- **Single Agent + Tools vs Multiagente**: ~20%
+  - Menor alineación sintáctica; la segunda prioriza acciones concretas ("consultar manualmente").
+
+**Promedio general**: **~25%**
+
+### Coincidencia Semántica (%)
+- **Single Agent vs Single Agent + Tools**: ~40%
+  - Ambas abordan el mismo problema (presupuesto, componentes), pero la segunda es más reactiva y menos propositiva.
+- **Single Agent vs Multiagente**: ~50%
+  - Comparten objetivos (configuraciones, presupuesto), pero el multiagente añade capas de análisis técnico (herramientas, errores).
+- **Single Agent + Tools vs Multiagente**: ~35%
+  - La segunda es más operativa ("consultar manualmente"), mientras la primera es más analítica.
+
+**Promedio general**: **~40%**
+
+---
+
+## Clasificación del Nivel de Consenso
+**Coincidencia semántica promedio (40%) → Bajo consenso**
+- Las respuestas comparten objetivos, pero difieren en enfoque:
+  - **Single Agent**: Detallado y propositivo.
+  - **Single Agent + Tools**: Limitado por restricciones técnicas.
+  - **Multiagente**: Técnico y orientado a soluciones operativas.
+
+---
+
+## Comparación por Modelo
+
+### Single Agent
+**Resumen**:
+- Proporciona **tres configuraciones detalladas** (rendimiento, silencio, calidad-precio) con cálculos de presupuesto, consumo eléctrico y rendimiento en modelos quantizados.
+- Incluye **análisis de costes anuales** (ej: 1,350 €/año para RTX 4090).
+- Recomienda tiendas europeas y herramientas como `PCPartPicker`.
+- **Fortalezas**:
+  - Profundidad en detalles técnicos.
+  - Enfoque práctico con justificaciones claras (ej: "priorizar Ryzen 9 7950X3D").
+- **Debilidades**:
+  - Presupuesto superado en configuraciones de alto rendimiento.
+
+### Single Agent + Tools
+**Resumen**:
+- **Enfoque reactivo**: Acknowledge limitaciones (precios no actualizados, falta de disponibilidad).
+- Propone **acciones concretas** ("consultar manualmente", priorizar componentes).
+- **Fortalezas**:
+  - Claridad en pasos a seguir.
+  - Enfoque en soluciones alternativas.
+- **Debilidades**:
+  - Falta de propuestas técnicas detalladas (ej: no sugiere modelos específicos).
+
+### Multiagente
+**Resumen**:
+- Usa **herramientas especializadas** (`research_tool`, `critic_tool`) para analizar precios y compatibilidad.
+- Identifica **errores** (presupuesto superado, falta de detalles).
+- **Fortalezas**:
+  - Análisis técnico estructurado (ej: "priorizar componentes equilibrados").
+  - Enfoque en soluciones operativas ("consultar manualmente").
+- **Debilidades**:
+  - Menos detallado en propuestas prácticas que el Single Agent.
+lmstudio:google/mistralai/ministral-3-14b-reasoning
+---
+
+## Diferencias Principales
+
+| **Aspecto**               | **Single Agent**                          | **Single Agent + Tools**                  | **Multiagente**                          |
+|---------------------------|--------------------------------------------|--------------------------------------------|-------------------------------------------|
+| **Enfoque**               | Propositivo y detallado.                   | Reactivo (limitaciones técnicas).          | Técnico y operativo (herramientas).       |
+| **Profundidad técnica**   | Alta (cálculos, rendimiento, costes).      | Baja (solo acciones genéricas).            | Media (análisis con herramientas).        |
+| **Estructura**            | Listas, tablas, recomendaciones.           | Pasos breves y directos.                   | Formato técnico (`research_tool`, etc.).  |
+| **Manejo de restricciones** | Ajusta configuraciones (ej: reducir RAM).  | Sugiere consultar manualmente.             | Identifica errores (presupuesto superado).|
+| **Recomendaciones**       | Específicas (modelos, tiendas).            | Genéricas ("priorizar componentes").      | Equilibradas (evitar RTX 4090).           |
+
+---
+
+## Conclusión
+
+### Nivel de Consenso: **Bajo (35-40%)**
+- Las respuestas comparten el **objetivo principal** (configurar un PC para IA local con presupuesto limitado), pero difieren en:
+  - **Enfoque**: Propositivo (Single Agent) vs. reactivo/operativo (Multiagente).
+  - **Detalle técnico**: El Single Agent destaca por su profundidad, mientras el Multiagente prioriza análisis estructurado.
+  - **Manejo de restricciones**: El Single Agent ajusta propuestas; los demás sugieren acciones externas.
+
+### Recomendaciones para Mejorar el Consenso:
+1. **Unificar criterios**:
+   - Usar un formato común (ej: tablas + pasos operativos).
+   - Incluir herramientas técnicas en todas las respuestas (ej: `research_tool`).
+2. **Profundizar en soluciones alternativas**:
+   - El Single Agent + Tools podría proponer modelos específicos si se superan restricciones.
+3. **Alinear objetivos**:
+   - El Multiagente podría incluir más recomendaciones prácticas (como el Single Agent) para evitar que sea percibido como "solo técnico".
+
+### Respuesta Ideal:
+Una combinación de:
+- **Detalle técnico** del Single Agent.
+- **Acciones operativas** del Multiagente.
+- **Enfoque reactivo** del Single Agent + Tools para manejar restricciones.
+
+**Ejemplo**:
+> *"Dado el presupuesto de 2,800 €, propongo tres configuraciones (rendimiento/silencio/calidad-precio). Sin embargo, la RTX 4090 supera el límite. **Acciones alternativas**: (1) Usar RTX 4080 Super (-300 €); (2) Consultar precios en [Mindfactory](https://www.mindfactory.de) para ajustes. Herramientas como `PCPartPicker` pueden verificar compatibilidad automáticamente."*
+```
+
+Este informe estructura el análisis de manera clara, destacando tanto las métricas cuantitativas como las diferencias cualitativas entre los modelos.

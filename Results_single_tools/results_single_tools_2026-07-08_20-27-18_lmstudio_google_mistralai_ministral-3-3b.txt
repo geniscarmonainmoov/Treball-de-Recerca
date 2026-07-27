@@ -1,0 +1,125 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+RESPUESTA:
+Voy a estructurar la respuesta en pasos claros y verificables, aunque actualmente no puedo realizar búsquedas en tiempo real de precios ni consultar bases de datos de tiendas específicas. Sin embargo, puedo **proporcionarte una guía metodológica detallada** para que puedas evaluar tú mismo el proceso, junto con cálculos teóricos basados en componentes comunes del mercado actual (2026) y referencias técnicas.
+
+---
+
+### 1. **Requisitos iniciales**
+- **Presupuesto máximo**: 2800 € (IVA incluido).
+- **Objetivo**: PC para IA local (ejecución de modelos cuantizados como Llama 3.3 70B, Qwen 3 o DeepSeek V3).
+- **Ámbito**: Componentes europeos (tiendas como Amazon Europa, Micro Center, PCComponentes, etc.).
+
+---
+
+### 2. **Estructura de la búsqueda y cálculos**
+#### a) **Precios en tiendas europeas**
+No puedo buscar precios actualizados en tiempo real, pero te sugiero:
+- Usar herramientas como **PCPartPicker** (para compatibilidad) o comparadores de Amazon/EU.
+- Ejemplo de componentes clave para referencia (precios aproximados en 2026):
+  - CPU: AMD Ryzen 9 7950X3D (~800 €).
+  - GPU: NVIDIA RTX 4090 (o AMD RX 7900 XTX) (~1500-1800 €).
+  - Placa base: ASUS ROG Crosshair X670E (~250 €).
+  - RAM: 64 GB DDR5 (ej. Corsair Vengeance, ~150 €).
+  - Fuente: Corsair RM1000x (~180 €).
+  - Caja: Fractal Design Torrent (~100 €).
+
+#### b) **Cálculo de coste total con envío e IVA**
+Supongamos que los precios son los mencionados y el IVA en España es del 21%:
+- Ejemplo de configuración base:
+  - CPU + GPU + Placa base + RAM + Fuente + Caja = ~3080 €.
+  - **Excede el presupuesto**. Necesitarás ajustar componentes.
+
+---
+
+### 3. **Compatibilidad completa**
+Usa herramientas como **PCPartPicker** para verificar compatibilidad de:
+- Tamaño físico (cajas).
+- Conexiones (ej: GPU que requiera fuente específica).
+- Requisitos de refrigeración.
+- Versión de BIOS/placa base.
+
+---
+
+### 4. **Consumo eléctrico máximo**
+Para estimar consumo:
+- CPU (Ryzen 9 7950X3D): ~120W bajo carga.
+- GPU (RTX 4090): ~350W bajo carga.
+- RAM: Negligible (~1W).
+- Fuente: Debe soportar al menos **470W** (para margen de seguridad).
+
+---
+
+### 5. **Coste anual de electricidad**
+- Consumo diario estimado: CPU + GPU = ~470W.
+- Coste por kWh en España: ~0.16 €/kWh.
+- Cálculo:
+  - 470W = 0.47 kWh/hour × 8 horas/día = **3.76 kWh/día**.
+  - 3.76 kWh/día × 365 días/año = **1372.8 kWh/año**.
+  - Coste anual: 1372.8 kWh × 0.16 €/kWh ≈ **220 €/año**.
+
+---
+
+### 6. **Rendimiento esperado en modelos de IA**
+- **Llama 3.3 70B (quantizado)**: Depende del cuantizador (ej: QLoRA). Rendimiento similar a Llama 2 70B.
+- **Qwen 3**: Mejor rendimiento en algunos benchmarks, pero requiere GPU potente.
+- **DeepSeek V3**: Optimizado para eficiencia; puede ser competitivo con menos recursos.
+
+---
+
+### 7. **Tres configuraciones optimizadas**
+#### Configuración 1: **Rendimiento máximo (presupuesto ajustado)**
+| Componente       | Modelo               | Precio aproximado (€) |
+|------------------|----------------------|-----------------------|
+| CPU              | AMD Ryzen 9 7950X3D   | 800                   |
+| GPU              | NVIDIA RTX 4080      | 1200                  |
+| Placa base       | ASUS ROG Strix B650E | 200                   |
+| RAM              | 64 GB DDR5           | 150                   |
+| Fuente           | Corsair RM750x       | 130                   |
+| Caja             | Fractal Design Torrent | 100                |
+| **Total**        |                      | **2380 €**            |
+
+- **Justificación**: GPU RTX 4080 es potente para cuantización de modelos grandes. CPU Ryzen 9 7950X3D optimiza consumo.
+
+---
+
+#### Configuración 2: **Silencio y eficiencia energética**
+| Componente       | Modelo               | Precio aproximado (€) |
+|------------------|----------------------|-----------------------|
+| CPU              | AMD Ryzen 7 7800X     | 500                   |
+| GPU              | AMD RX 7900 XTX      | 1600                  |
+| Placa base       | MSI B650 Tomahawk    | 180                   |
+| RAM              | 32 GB DDR5           | 100                   |
+| Fuente           | Corsair RM850x       | 140                   |
+| Caja             | NZXT H5 Flow         | 90                    |
+| **Total**        |                      | **2610 €**            |
+
+- **Justificación**: GPU AMD RX 7900 XTX es eficiente en consumo. CPU Ryzen 7 7800X reduce ruido.
+
+---
+
+#### Configuración 3: **Relación calidad-precio**
+| Componente       | Modelo               | Precio aproximado (€) |
+|------------------|----------------------|-----------------------|
+| CPU              | Intel Core i9-14900K  | 650                   |
+| GPU              | NVIDIA RTX 4070 Ti    | 1300                  |
+| Placa base       | MSI PRO B650M        | 120                   |
+| RAM              | 64 GB DDR5           | 150                   |
+| Fuente           | EVGA SuperNOVA 850   | 120                   |
+| Caja             | Lian Li PC-O11 Dynamic | 90                |
+| **Total**        |                      | **2330 €**            |
+
+- **Justificación**: Equilibrio entre rendimiento y precio. GPU RTX 4070 Ti es buena opción para cuantización.
+
+---
+
+### Notas importantes:
+1. **Verifica precios reales en tiendas específicas** (usando comparadores).
+2. **Asegúrate de que la fuente soporte el consumo total** de los componentes.
+3. **Refrigeración**: Configura ventilación adecuada para evitar sobrecalentamiento.
+
+---
+Si necesitas que profundice en algún aspecto concreto o que ajuste las configuraciones, indícalo y procederé con más detalle.

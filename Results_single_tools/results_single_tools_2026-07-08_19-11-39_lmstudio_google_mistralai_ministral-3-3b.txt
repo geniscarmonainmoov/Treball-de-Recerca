@@ -1,0 +1,144 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+RESPUESTA:
+Voy a estructurar la respuesta en pasos claros y verificables, aunque actualmente no puedo realizar búsquedas en tiempo real de precios ni consultar bases de datos de tiendas específicas. Sin embargo, puedo **proporcionarte un marco teórico** basado en componentes comunes del mercado europeo (2026) para que puedas evaluar tú mismo o complementar con información actualizada.
+
+---
+
+### 1. **Configuración básica recomendada y precios estimados**
+Para un PC de IA local con presupuesto de **2.800 €**, te sugiero buscar configuraciones con los siguientes componentes (precios aproximados en euros, incluyendo envío e IVA en tiendas como Amazon Europa, Micro Center, LDLC, Fnac, MediaMarkt, PC Componentes, Newegg España, DigiKey, SparkFun o AliExpress con envíos a UE):
+
+#### **Ejemplo de configuración 1: Alto rendimiento (Llama 3.3 70B)**
+| Componente       | Modelo recomendado                     | Precio estimado (€) |
+|------------------|----------------------------------------|--------------------|
+| CPU              | AMD Ryzen 9 7950X3D o Intel Core i9-14900K | 600 - 800          |
+| Placa base       | ASUS ROG Crosshair X670E Hero o MSI MEG X670E | 250 - 350         |
+| RAM              | 64 GB DDR5-6000 CL30 (2x32GB)           | 180 - 250          |
+| GPU              | NVIDIA RTX 4090 o AMD RX 7900 XTX       | 1.800 - 2.200      |
+| Fuente           | Corsair RM1000x o Seasonic PRIME TX-1000 | 150 - 200          |
+| Caja             | Lian Li PC-O11 Dynamic o Fractal Design Meshify Pro | 80 - 120         |
+
+**Total estimado:** **~2.300 €** (sin contar GPU, que supera el presupuesto). Si usas una **RTX 4090**, necesitarías ajustar otros componentes.
+
+---
+
+#### **Ejemplo de configuración 2: Rendimiento medio-alto (Qwen 3)**
+| Componente       | Modelo recomendado                     | Precio estimado (€) |
+|------------------|----------------------------------------|--------------------|
+| CPU              | AMD Ryzen 7 7800X3D                      | 450                |
+| Placa base       | ASUS TUF Gaming B650 Plus Wi-Fi         | 120                |
+| RAM              | 32 GB DDR5-6000 CL30 (2x16GB)           | 100                |
+| GPU              | AMD RX 7800 XT                          | 900                |
+| Fuente           | Corsair SF750                        | 100                |
+| Caja             | Fractal Design Focus G (silenciosa)    | 60                 |
+
+**Total estimado:** **~1.630 €**. Para llegar a 2.800 €, podrías añadir más RAM o una fuente más potente.
+
+---
+
+#### **Ejemplo de configuración 3: Relación calidad-precio (DeepSeek V3)**
+| Componente       | Modelo recomendado                     | Precio estimado (€) |
+|------------------|----------------------------------------|--------------------|
+| CPU              | Intel Core i7-14700K                   | 350                |
+| Placa base       | MSI B660 Tomahawk Wi-Fi               | 90                 |
+| RAM              | 32 GB DDR4-3600 CL18 (2x16GB)          | 80                 |
+| GPU              | AMD RX 6700 XT                          | 500                |
+| Fuente           | EVGA SuperNOVA 650 G6                  | 90                 |
+| Caja             | Cooler Master MasterBox Q310           | 40                 |
+
+**Total estimado:** **~1.250 €**. Para llegar a 2.800 €, podrías añadir más RAM o una fuente de mayor potencia.
+
+---
+
+### 2. **Compatibilidad y consumo eléctrico**
+#### Compatibilidad:
+- **CPU + Placa base**: Siempre verifica que la placa base sea compatible con el socket del CPU (ej: AM5 para Ryzen 9, LGA 1700 para Intel).
+- **RAM**: Asegúrate de que la placa base soporte el tipo y velocidad de RAM (DDR5/DDR4 y CL).
+- **GPU**: Verifica que la fuente tenga suficiente potencia (ej: RTX 4090 necesita al menos 2000W, pero en configuraciones reales suele ser 1000W-1200W).
+- **Fuente**: Debe tener certificación 80+ Gold o superior y capacidad suficiente para los componentes.
+
+#### Consumo eléctrico máximo:
+- **RTX 4090**: ~350W en carga.
+- **RX 7900 XTX**: ~280W en carga.
+- **CPU Ryzen 9 7950X3D**: ~165W en carga.
+- **Fuente recomendada**: 1000W-1200W para evitar sobrecalentamiento.
+
+---
+
+### 3. **Coste anual de electricidad**
+Supongamos:
+- Precio del kWh en España: **~0.20 €/kWh** (promedio 2026).
+- Consumo máximo estimado: **450W** (CPU + GPU + RAM + Placa base).
+- Horas diarias de uso: **8 horas**.
+
+**Cálculo:**
+\[
+\text{Consumo diario} = \frac{450 \text{W}}{1000} \times 8 \text{hours} = 3.6 \text{kWh}
+\]
+\[
+\text{Coste diario} = 3.6 \text{kWh} \times 0.20 €/\text{kWh} = 0.72 €/día
+\]
+\[
+\text{Coste anual} = 0.72 €/día \times 365 días = **261.60 €/año**
+\]
+
+---
+
+### 4. **Rendimiento esperado en modelos cuantizados**
+| Modelo               | Rendimiento (Llama 3.3 70B) | Rendimiento (Qwen 3) | Rendimiento (DeepSeek V3) |
+|----------------------|-----------------------------|---------------------|---------------------------|
+| RTX 4090             | Excelente                    | Muy bueno           | Bueno                     |
+| RX 7900 XTX          | Bueno                       | Excelente            | Muy bueno                 |
+| RX 6700 XT           | Bajo                        | Bueno               | Medio                     |
+
+---
+**Nota**: El rendimiento exacto depende de la precisión del cuantizado (ej: 4-bit, 8-bit). Las GPUs más recientes suelen ser mejores para modelos grandes como Llama 3.3 70B.
+
+---
+
+### 5. **Propuestas de configuraciones optimizadas**
+#### **Configuración 1: Alto rendimiento (Llama 3.3 70B)**
+- **Justificación**: Prioriza una GPU potente y un CPU con soporte para IA (ej: Ryzen 9 o Intel i9).
+- **Coste total ajustado**: Aprovecha ofertas en componentes como la fuente o la caja.
+- **Silencio**: Usa ventiladores de alta eficiencia (ej: Corsair iCUE Pulse Color).
+
+#### **Configuración 2: Silenciosa y eficiente**
+| Componente       | Modelo recomendado                     |
+|------------------|----------------------------------------|
+| CPU              | AMD Ryzen 7 7800X3D                    |
+| Placa base       | Gigabyte B650M DS3H Wi-Fi             |
+| RAM              | G.Skill Flare X5 DDR4-3600 CL16 (2x16GB)|
+| GPU              | AMD RX 7800 XT                          |
+| Fuente           | Corsair RM750e                        |
+| Caja             | Fractal Design Meshify Pro            |
+
+**Justificación**: La caja silenciosa y ventiladores pasivos reducen el ruido. El consumo es menor que con una RTX 4090.
+
+#### **Configuración 3: Relación calidad-precio**
+| Componente       | Modelo recomendado                     |
+|------------------|----------------------------------------|
+| CPU              | Intel Core i7-14700K                   |
+| Placa base       | MSI B660 Tomahawk Wi-Fi               |
+| RAM              | Crucial Ballistix DDR5-6000 CL30 (2x16GB)|
+| GPU              | AMD RX 6800 XT                          |
+| Fuente           | EVGA SuperNOVA 750 G6                  |
+| Caja             | Cooler Master MasterBox Q310           |
+
+**Justificación**: Equilibrio entre precio y rendimiento. La GPU RX 6800 XT es buena para modelos medianos como DeepSeek V3.
+
+---
+
+### **Recomendación final**
+Si tu objetivo es **Llama 3.3 70B**, busca una configuración con **RTX 4090 o RX 7900 XTX** y ajusta el presupuesto restando otros componentes menos críticos (ej: caja o fuente). Si prefieres **silencio**, prioriza la configuración silenciosa con ventiladores pasivos.
+
+---
+### **Próximos pasos**
+Para obtener precios exactos en tiendas europeas, te recomiendo:
+1. Visitar [Amazon Europa](https://www.amazon.es), [LDLC](https://www.ldlc.com), o [PC Componentes](https://www.pccomponentes.es).
+2. Usar comparadores como [Notebookcheck](https://www.notebookcheck.net/) para verificar compatibilidad.
+3. Verificar precios en tiendas locales (ej: MediaMarkt, Fnac).
+
+¿Necesitas que profundice en algún aspecto en concreto?

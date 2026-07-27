@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿¿Qué organización anunció recientemente un avance importante y en qué consiste??
+RESPUESTA:
+La **Organización Panamericana de la Salud (OPS/OMS)** anunció recientemente un avance importante relacionado con la **vigilancia epidemiológica**. Este avance fue destacado durante un **webinar internacional** y fue realizado en colaboración con el **Ministerio de Salud de Chile** y los equipos del Programa de Control.

@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿¿Qué empresa estuvo detrás de la compra de una conocida plataforma de desarrollo de software por unos 7.500 millones de dólares??
+RESPUESTA:
+La empresa que estuvo detrás de la compra de una conocida plataforma de desarrollo de software por unos 7.500 millones de dólares fue **Microsoft**, que adquirió **GitHub** el 4 de junio de 2018. GitHub es una plataforma de desarrollo colaborativo basada en cloud, utilizada por desarrolladores para alojar, revisar y gestionar código fuente.

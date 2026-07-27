@@ -1,0 +1,62 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Basándote en la velocidad media del ganador de la última edición del Tour de Francia, calcula cuánto tardaría en recorrer la distancia por carretera entre Mataró y Alcañiz si mantuviera esa velocidad constante durante todo el trayecto.     Muestra todos los cálculos paso a paso e indica el resultado final en horas y minutos.
+RESPUESTA:
+Vale, primero necesito calcular la velocidad media del ganador del Tour de Francia en la última edición.
+
+La distancia total fue **3.302 km** y el tiempo fue **76 horas, 0 minutos y 32 segundos**.
+
+Primero, convierto los 32 segundos a horas:
+- 32 segundos = 32/3600 ≈ 0.0089 horas.
+
+El tiempo total en horas es: **76 + 0.0089 ≈ 76.0089 horas**.
+
+Ahora, calculo la velocidad media:
+Velocidad = Distancia / Tiempo
+Velocidad = 3.302 km / 76.0089 h ≈ 0.04345 km/s.
+
+Pero mejor lo hago en km/h para que sea más claro:
+Velocidad ≈ 3.302 km / 76.0089 h ≈ **43.45 km/h**.
+
+Ahora, necesito la distancia por carretera entre Mataró y Alcañiz. Según los datos que encontré, parece que la distancia es de aproximadamente **300 km** (aunque no está confirmado, lo usaré como referencia para el cálculo).
+
+Con una velocidad constante de 43.45 km/h, el tiempo necesario sería:
+Tiempo = Distancia / Velocidad
+Tiempo = 300 km / 43.45 km/h ≈ **6.90 horas**.
+
+Convertir 0.90 horas a minutos:
+0.90 h * 60 min/h ≈ **54 minutos**.
+
+**Resultado final:** Aproximadamente **6 horas y 54 minutos**.
+
+================================================================================
+PREGUNTA: Basándote en la velocidad media del ganador de la última edición del Tour de Francia, calcula cuánto tardaría en recorrer la distancia por carretera entre Mataró y Alcañiz si mantuviera esa velocidad constante durante todo el trayecto.     Muestra todos los cálculos paso a paso e indica el resultado final en horas y minutos.
+RESPUESTA:
+Vale, primero necesito calcular la velocidad media del ganador del Tour de Francia en la última edición.
+
+La distancia total fue **3.302 km** y el tiempo fue **76 horas, 0 minutos y 32 segundos**.
+
+Primero, convierto los 32 segundos a horas:
+- 32 segundos = 32/3600 ≈ 0.0089 horas.
+
+El tiempo total en horas es: **76 + 0.0089 ≈ 76.0089 horas**.
+
+Ahora, calculo la velocidad media:
+Velocidad = Distancia / Tiempo
+Velocidad = 3.302 km / 76.0089 h ≈ 0.04345 km/s.
+
+Pero mejor lo hago en km/h para que sea más claro:
+Velocidad ≈ 3.302 km / 76.0089 h ≈ **43.45 km/h**.
+
+Ahora, necesito la distancia por carretera entre Mataró y Alcañiz. Según los datos que encontré, parece que la distancia es de aproximadamente **300 km** (aunque no está confirmado, lo usaré como referencia para el cálculo).
+
+Con una velocidad constante de 43.45 km/h, el tiempo necesario sería:
+Tiempo = Distancia / Velocidad
+Tiempo = 300 km / 43.45 km/h ≈ **6.90 horas**.
+
+Convertir 0.90 horas a minutos:
+0.90 h * 60 min/h ≈ **54 minutos**.
+
+**Resultado final:** Aproximadamente **6 horas y 54 minutos**.

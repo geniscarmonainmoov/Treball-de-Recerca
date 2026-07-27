@@ -1,0 +1,7 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Quien gano el partido de ayer de España vs Portugal?
+RESPUESTA:
+España ganó el partido de ayer contra Portugal, avanzando a los cuartos de final del Mundial 2026. El gol decisivo fue anotado por Mikel Merino al minuto 90+1'.

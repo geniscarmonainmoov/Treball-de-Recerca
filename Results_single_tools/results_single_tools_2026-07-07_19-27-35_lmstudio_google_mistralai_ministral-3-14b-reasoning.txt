@@ -1,0 +1,33 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Basándote en la velocidad media del ganador de la última edición del Tour de Francia, calcula cuánto tardaría en recorrer la distancia por carretera entre Mataró y Alcañiz si mantuviera esa velocidad constante durante todo el trayecto.     Muestra todos los cálculos paso a paso e indica el resultado final en horas y minutos.
+RESPUESTA:
+Para calcular cuánto tardaría Jonas Vingegaard, ganador del Tour de Francia 2023 con una velocidad media de 41.7 km/h, en recorrer la distancia por carretera entre Mataró y Alcañiz (aproximadamente 450 km), seguimos los siguientes pasos:
+
+1. **Fórmula para calcular el tiempo:**
+   \[
+   \text{Tiempo} = \frac{\text{Distancia}}{\text{Velocidad}}
+   \]
+
+2. **Sustituyendo los valores:**
+   \[
+   \text{Tiempo} = \frac{450 \text{ km}}{41.7 \text{ km/h}} \approx 10.791 \text{ horas}
+   \]
+
+3. **Convertir la parte decimal de horas a minutos:**
+   \[
+   0.791 \text{ horas} \times 60 \text{ minutos/hora} \approx 47.46 \text{ minutos}
+   \]
+
+4. **Resultado final en horas y minutos:**
+   - Horas: 10 horas
+   - Minutos: 47 minutos (redondeando los decimales)
+
+Por lo tanto, Jonas Vingegaard tardaría aproximadamente **10 horas y 47 minutos** en recorrer la distancia por carretera entre Mataró y Alcañiz manteniendo una velocidad constante de 41.7 km/h.
+
+**Respuesta final:**
+\[
+\boxed{10 \text{ horas y } 47 \text{ minutos}}
+\]

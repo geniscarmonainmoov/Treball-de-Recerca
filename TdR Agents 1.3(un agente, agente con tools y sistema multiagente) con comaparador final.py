@@ -27,16 +27,38 @@ Sistema multiagente optimizado (sin overflow de contexto)
 import asyncio
 import nest_asyncio
 from pathlib import Path
-from datetime import datetime
 import os
 import ast
 import operator as op
-import math
 import logfire
-
 from pydantic_ai import Agent
 from pydantic_ai_litellm import LiteLLMModel
 from ddgs import DDGS
+from datetime import datetime, timedelta
+
+
+
+
+# =====================================================
+# RELOJ
+# =====================================================
+def normalizar_fecha(query: str):
+    hoy = datetime.now().date()
+
+    reemplazos = {
+        "hoy": hoy.strftime("%Y-%m-%d"),
+        "ayer": (hoy - timedelta(days=1)).strftime("%Y-%m-%d"),
+        "anteayer": (hoy - timedelta(days=2)).strftime("%Y-%m-%d"),
+        "mañana": (hoy + timedelta(days=1)).strftime("%Y-%m-%d"),
+    }
+
+    q = query.lower()
+
+    for palabra, fecha in reemplazos.items():
+        q = q.replace(palabra, fecha)
+
+    return q
+
 
 # =====================================================
 # CONFIG
@@ -89,6 +111,31 @@ def load_temperature(agent_name: str):
 
 def load_prompt(filename: str):
     return (PROMPTS_PATH / filename).read_text(encoding="utf-8")
+
+
+
+def add_current_date(prompt: str):
+    fecha_actual = datetime.now().strftime("%Y-%m-%d")
+
+    return f"""
+Hoy es {fecha_actual}.
+
+Cuando el usuario diga:
+- hoy
+- ayer
+- anteayer
+- mañana
+- hace una semana
+- hace un mes
+- este año
+- el año pasado
+
+Debes interpretar esas expresiones respecto a la fecha actual.
+Ejemplo:
+    Si se te pasa ayer y hoy es 23/3/2023 entonces ayer era 22/3/2023.
+
+{prompt}
+"""
 
 
 def load_questions(filename: str):
@@ -231,16 +278,34 @@ async def calculadora_agente(expr: str):
 # =====================================================
 async def buscar_en_internet(query: str):
     try:
-        results = []
         with DDGS() as ddgs:
-            for r in ddgs.text(query, max_results=2):
-                results.append(
-                    f"{r.get('title','')}: {r.get('body','')[:120]}"
+            resultados = list(
+                ddgs.text(
+                    query,
+                    region="es-es",
+                    safesearch="off",
+                    max_results=10
                 )
-        return "\n".join(results)[:600]   # 🔥 límite fuerte
+            )
+
+        if not resultados:
+            return "No se encontraron resultados."
+
+        salida = []
+
+        for r in resultados:
+            salida.append(
+                f"""
+{r.get('title')}
+{r.get('href')}
+{r.get('body')}
+"""
+            )
+
+        return "\n---\n".join(salida)
+
     except Exception as e:
         return f"Error búsqueda: {e}"
-
 # =====================================================
 # PROMPTS
 # =====================================================
@@ -276,34 +341,43 @@ model = create_model()
 # AGENTES SECUNDARIOS (SIMPLIFICADOS)
 # =====================================================
 
-
-single_agent_tools = Agent(
-    model,
-    system_prompt=load_prompt("single_agent_tools.txt"),
-    tools=[calculadora_agente, buscar_en_internet],
-)
 single_agent = Agent(
     model,
-    system_prompt=load_prompt("single_agent.txt"),
+    system_prompt=add_current_date(
+        load_prompt("single_agent.txt")
+    ),
+    
+)
+single_agent_tools = Agent(
+    model,
+    system_prompt=add_current_date(
+        load_prompt("single_agent_tools.txt")
+    ),
     tools=[calculadora_agente, buscar_en_internet],
 )
 agent_1 = Agent(
     model,
-    system_prompt=prompt_with_temperature("agent_secundari_1.txt", "agent_1"),
+    system_prompt=add_current_date(
+        prompt_with_temperature("agent_secundari_1.txt", "agent_1")
+    ),
     tools=[calculadora_agente, buscar_en_internet],
 )
-
 agent_2 = Agent(
     model,
-    system_prompt=prompt_with_temperature("agent_secundari_2.txt", "agent_2"),
+    system_prompt=add_current_date(
+        prompt_with_temperature("agent_secundari_2.txt", "agent_1")
+    ),
     tools=[calculadora_agente, buscar_en_internet],
 )
 
 agent_3 = Agent(
     model,
-    system_prompt=prompt_with_temperature("agent_secundari_3.txt", "agent_3"),
+    system_prompt=add_current_date(
+        prompt_with_temperature("agent_secundari_3.txt", "agent_1")
+    ),
     tools=[calculadora_agente, buscar_en_internet],
 )
+
 
 consensus_agent = Agent(
     model,
@@ -379,7 +453,7 @@ async def run_single_agent_tools(questions):
 
         single_tools_results[q] = answer
 
-        save_single_tools_result(q, answer)(q, answer)
+        save_single_tools_result(q, answer)
         
 async def run_multi_agent(questions):
     print("\n==============================")
@@ -492,7 +566,9 @@ RESPUESTA SISTEMA MULTIAGENTE:
 def create_supervisor():
     return Agent(
         model,
-        system_prompt=prompt_with_temperature("supervisor_agent.txt", "supervisor"),
+        system_prompt=add_current_date(
+            prompt_with_temperature("supervisor_agent.txt", "supervisor")
+        ),
         tools=[agent_1_tool, agent_2_tool, agent_3_tool],
     )
 
@@ -504,7 +580,12 @@ def save_multi_result(q, a):
         f.write("\n" + "="*80 + "\n")
         f.write(f"PREGUNTA: {q}\n")
         f.write(f"RESPUESTA:\n{a}\n")
+async def buscar_en_internet(query: str):
+    print(f"\nBUSCANDO: {query}\n")
 
+    with DDGS() as ddgs:
+        for r in ddgs.text(query, max_results=5):
+            print(r)
 # =====================================================
 # MAIN
 # =====================================================

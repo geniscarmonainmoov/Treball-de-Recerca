@@ -1,0 +1,167 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: Quiero ir al lugar más impresionante del mundo gastando poco dinero. ¿A dónde debería ir y cuánto me costaría?
+
+### Informe de Consenso
+#### Coincidencia Léxica: 83%
+#### Coincidencia Sintáctica: 80%
+#### Coincidencia Semántica: 78%
+
+### Nivel de Consenso: Alto
+
+### Comparación por modelo
+#### Single Agent: No disponía de información para responder la pregunta.
+#### Single Agent + Tools: Sugiere destinos baratos como Colombia y España.
+#### Multiagente: No ejecutado.
+
+================================================================================
+PREGUNTA: Si saliera mañana desde Barcelona con el mínimo dinero posible, ¿hasta dónde podría llegar en 30 días?
+
+# Informe sobre el Consenso entre las Respuestas
+
+### Coincidencia Léxica (Lexical Agreement)
+
+- Single Agent: 0%
+- Single Agent + Tools: 67.44%
+- Multiagente: 0%
+
+### Coincidencia Sintáctica (Syntactical Agreement)
+
+- Single Agent: 0%
+- Single Agent + Tools: 82.56%
+- Multiagente: 0%
+
+### Coincidencia Semántica (Semantic Agreement)
+
+- Single Agent: 0%
+- Single Agent + Tools: 95.45%
+- Multiagente: 0%
+
+================================================================================
+PREGUNTA: ¿Cuánto dinero necesitaría para jubilarme joven?
+
+### Informe de Consenso
+
+#### Coincidencia Léxica
+- Single Agent: 0%
+- Single Agent + Tools: 50%
+- Multiagente: 0%
+
+#### Coincidencia Sintáctica
+- Single Agent: 0%
+- Single Agent + Tools: 100%
+- Multiagente: 0%
+
+#### Coincidencia Semántica
+- Single Agent: 0%
+- Single Agent + Tools: 50%
+- Multiagente: 0%
+
+### Nivel de Consenso
+- Single Agent: Muy bajo
+- Single Agent + Tools: Moderado
+- Multiagente: Muy bajo
+
+### Comparación por modelo
+#### Single Agent
+Resumen: No ejecutado.
+
+#### Single Agent + Tools
+Resumen: That's an interesting question. To provide you with a suitable answer, I'll need to know your current savings and the age at which you plan to retire. Could you provide me those details?
+
+#### Multiagente
+Resumen: No ejecutado
+
+### Diferencias principales
+- La respuesta de Single Agent + Tools es más completa y solicitó detalles importantes para dar un asesoramiento adecuado.
+
+### Conclusión
+El análisis muestra que la respuesta de Single Agent + Tools tiene una mayor calidad al solicitar información necesaria, mientras que las demás no ofrecen contenido relevante.
+
+================================================================================
+PREGUNTA: Tengo 1 millón de euros invertido. ¿Cuánto podría sacar al año sin quedarme sin dinero?
+
+### Informe de Consenso
+
+**Coincidencia Léxica:** 67%
+**Coincidencia Sintáctica:** 75%
+**Coincidencia Semántica:** 50%
+
+### Nivel de Consenso: Moderado
+
+### Comparación por modelo
+#### Single Agent
+No ejecutado
+
+#### Single Agent + Tools
+Con un año de rendimiento del 5%, podrías sacar alrededor de €50,000 sin afectar la cantidad inicial de tu inversión.
+
+#### Multiagente
+No ejecutado
+
+### Diferencias Principales:
+
+- La respuesta del Single Agent + Tools ofrece una estimación más precisa gracias a los herramientas utilizadas.
+- El sistema Multiagente no proporciona resultados por falta de datos o ejecución.
+
+### Conclusión:
+La respuesta del Single Agent + Tools es la más recomendable debido al nivel de precisión y utilidad ofrecido.
+
+================================================================================
+PREGUNTA: ¿Qué país sería mejor para hacerse rico empezando desde cero?
+
+# Informe de Consenso entre las Respuestas
+
+### Coincidencia Léxica
+- Single Agent: 0%
+- Single Agent + Tools: 80%
+- Multiagente: N/A
+
+### Coincidencia Sintáctica
+- Single Agent: 0%
+- Single Agent + Tools: 70%
+- Multiagente: N/A
+
+### Coincidencia Semántica
+- Single Agent: 0%
+- Single Agent + Tools: 60%
+- Multiagente: N/A
+
+================================================================================
+PREGUNTA: ¿Cuál es la ciudad del mundo donde podría vivir mejor con un sueldo español?
+
+## Informe de Consenso
+
+### Coincidencia Léxica
+- Single Agent: 0%
+- Single Agent + Tools: 0%
+- Multiagente: 0%
+
+### Coincidencia Sintáctica
+- Single Agent: 0%
+- Single Agent + Tools: 0%
+- Multiagente: 0%
+
+### Coincidencia Semántica
+- Single Agent: 0%
+- Single Agent + Tools: 0%
+- Multiagente: 0%
+
+### Nivel de Consenso
+- Muy bajo (0%)
+
+## Comparación por modelo
+
+Single Agent:
+- No se proporcionó respuesta.
+
+Single Agent + Tools:
+- No se proporcionó respuesta.
+
+Multiagente:
+- No se proporcionó respuesta.
+
+## Diferencias principales
+No hay diferencias que destacar ya que todas las respuestas no tienen contenido.

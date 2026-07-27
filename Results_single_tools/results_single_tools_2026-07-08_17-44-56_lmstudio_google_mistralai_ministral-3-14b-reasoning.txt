@@ -1,0 +1,9 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quien gano anteayer el partido España vs Portugal."
+RESPUESTA:
+Parece que no hay información clara sobre el resultado del partido entre España y Portugal anteayer. La búsqueda en Internet no ha devuelto resultados específicos sobre ese encuentro.
+
+Si tienes más detalles o contexto, puedo intentar buscar información adicional.

@@ -1,0 +1,7 @@
+MULTIAGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Qué selección ganó por 1-0 un partido de octavos de final del Mundial 2026 disputado entre dos equipos vecinos de Europa occidental, y cómo se desarrolló el encuentro?
+RESPUESTA:
+El equipo que ganó por 1-0 en el partido de octavos de final del Mundial 2026 fue Canadá, enfrentando a Marruecos. El encuentro se desarrolló con un gol decisivo para los canadienses, lo que les permitió avanzar en la competencia.

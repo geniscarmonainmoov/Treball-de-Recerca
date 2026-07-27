@@ -1,0 +1,126 @@
+CONSENSUS ANALYSIS
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+
+```markdown
+# Informe de Consenso entre Respuestas
+
+## Datos de las respuestas
+
+**Pregunta:**
+"¿Quién ganó ayer el partido España vs Portugal?"
+
+**Respuesta 1 (Single Agent):**
+El partido España vs Portugal terminó con victoria de **España**. No especifica el marcador exacto, pero si necesitas más detalles, dime.
+
+**Respuesta 2 (Single Agent + Tools):**
+Para responder a tu pregunta sobre quién ganó el partido entre España y Portugal ayer, he realizado una búsqueda de información reciente. Según los resultados, el último partido entre estos dos equipos se disputó el 9 de octubre de 2023 en la Liga de Naciones de la UEFA, y el resultado fue un empate de 2-1 a favor de España.
+Sin embargo, te recomendaría verificar si este es el partido al que te refieres, ya que mi conocimiento está actualizado hasta noviembre de 2023 y no tengo acceso a la fecha actual. Si necesitas información más reciente o sobre otro partido en específico, por favor, proporcióname más detalles.
+¿Te interesa algún otro aspecto de este partido o alguna otra competición entre estos equipos?
+
+**Respuesta 3 (Sistema Multiagente):**
+- **research_tool:** El partido de ayer entre España y Portugal no se disputó. Es posible que te refieras a un encuentro de otro contexto o competición, como el Mundial 2026, pero hasta la fecha no ha ocurrido.
+- **critic_tool:** La información proporcionada es correcta y no hay inconsistencias ni falta de datos. Sin embargo, sería útil confirmar si el usuario se refiere a otro partido específico para evitar confusiones.
+- **practical_tool:** Si buscas resultados de partidos recientes entre España y Portugal, te recomiendo revisar las últimas competiciones oficiales, como la Liga de Naciones o amistosos, donde suelen enfrentarse con frecuencia.
+- **final:** El partido de ayer entre España y Portugal no se jugó, pero puedes consultar otros encuentros recientes para obtener información actualizada.
+
+---
+
+## Métricas de Consenso
+
+### 1. Coincidencia léxica (%)
+- **Cálculo:**
+  - Palabras únicas en todas las respuestas:
+    - Single Agent: 20 palabras.
+    - Single Agent + Tools: 85 palabras.
+    - Multiagente: 45 palabras (contando solo el texto final, no los roles).
+  - Coincidencia léxica = (Palabras compartidas / Total de palabras únicas) * 100.
+  - Palabras compartidas: 3 ("España", "Portugal", "partido").
+  - Total de palabras únicas: 20 + 85 + 45 = 150.
+  - **Coincidencia léxica:** (3 / 150) * 100 ≈ **2%**.
+
+### 2. Coincidencia sintáctica (%)
+- **Cálculo:**
+  - Estructura de las respuestas:
+    - Single Agent: Respuesta directa con información clara.
+    - Single Agent + Tools: Respuesta detallada con contexto y verificación.
+    - Multiagente: Respuesta modular (roles) con conclusión final.
+  - Coincidencia sintáctica = (Estructuras similares / Total de estructuras) * 100.
+  - Estructuras similares: 1 ("respuesta directa" en Single Agent y "final" en Multiagente).
+  - Total de estructuras: 3.
+  - **Coincidencia sintáctica:** (1 / 3) * 100 ≈ **33%**.
+
+### 3. Coincidencia semántica (%)
+- **Cálculo:**
+  - Contenido semántico:
+    - Single Agent: España ganó.
+    - Single Agent + Tools: España ganó (con contexto de fecha y verificación).
+    - Multiagente: No hubo partido, pero se sugiere consultar otros encuentros.
+  - Coincidencia semántica = (Ideas compartidas / Total de ideas) * 100.
+  - Ideas compartidas: 0 (las respuestas son opuestas en contenido).
+  - Total de ideas: 3.
+  - **Coincidencia semántica:** (0 / 3) * 100 ≈ **0%**.
+
+### Nivel de consenso:
+- **Coincidencia léxica (2%) → Muy bajo.**
+- **Coincidencia sintáctica (33%) → Bajo.**
+- **Coincidencia semántica (0%) → Muy bajo.**
+
+---
+
+## Comparación por modelo
+
+### Single Agent:
+**Resumen:**
+Proporciona una respuesta directa y clara, indicando que España ganó el partido sin detalles adicionales. Es concisa pero no verifica la fecha ni ofrece contexto adicional.
+
+### Single Agent + Tools:
+**Resumen:**
+Ofrece una respuesta detallada con información reciente (aunque desactualizada) y sugiere verificar la fecha. Incluye contexto sobre competiciones y recomienda más detalles si son necesarios. Es más robusta pero depende de herramientas externas.
+
+### Sistema Multiagente:
+**Resumen:**
+Usa un enfoque modular con roles específicos (investigación, crítica, práctico) para concluir que no hubo partido ayer. Es estructurada y sistemática, pero su respuesta final difiere radicalmente de las otras dos.
+
+---
+
+## Diferencias principales
+
+1. **Contenido:**
+   - Single Agent y Single Agent + Tools asumen que hubo un partido y que España ganó.
+   - Multiagente niega la existencia del partido ayer y sugiere consultar otros encuentros.
+
+2. **Enfoque:**
+   - Single Agent: Respuesta directa sin verificación.
+   - Single Agent + Tools: Verifica con herramientas externas (aunque desactualizadas).
+   - Multiagente: Usa múltiples agentes para analizar y concluir de manera sistemática.
+
+3. **Contexto:**
+   - Single Agent + Tools y Multiagente incluyen contexto adicional (fechas, competiciones), pero con enfoques distintos.
+   - Single Agent omite detalles contextiales.
+
+4. **Precisión:**
+   - Las tres respuestas son precisas en sus respectivos marcos, pero la Multiagente es la única que corrige una posible confusión del usuario (no hubo partido ayer).
+
+---
+
+## Conclusión
+
+Las respuestas muestran un **consenso muy bajo** en todos los niveles (léxico, sintáctico y semántico). Esto se debe a:
+
+1. **Divergencia semántica:** Dos modelos asumen que hubo un partido y España ganó, mientras el Multiagente niega su existencia.
+2. **Enfoques distintos:**
+   - Single Agent: Simplicidad sin verificación.
+   - Single Agent + Tools: Detalle con herramientas externas (aunque limitadas).
+   - Multiagente: Estructura modular y sistemática para resolver la ambigüedad de la pregunta.
+
+**Recomendaciones:**
+- **Para respuestas directas:** Usar Single Agent si se prioriza brevedad.
+- **Para contexto detallado:** Preferir Single Agent + Tools, aunque requiera actualización de datos.
+- **Para precisión y verificación:** El Sistema Multiagente es el más adecuado para evitar ambigüedades (ej.: confirmar si hubo partido).
+
+**Nota crítica:**
+La pregunta original ("¿Quién ganó ayer...") contiene una ambigüedad temporal que solo el Sistema Multiagente aborda correctamente. Esto sugiere que modelos con capacidad de verificación y estructura modular son superiores para preguntas con posibles inconsistencias.
+```

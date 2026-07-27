@@ -1,0 +1,12 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+RESPUESTA:
+El partido España vs Portugal terminó con victoria de **España**. No especifica el marcador exacto, pero si necesitas más detalles, dime.
+
+================================================================================
+PREGUNTA: "¿Quién ganó ayer el partido España vs Portugal?"
+RESPUESTA:
+El partido España vs Portugal terminó con victoria de **España**. No especifica el marcador exacto, pero si necesitas más detalles, dime.

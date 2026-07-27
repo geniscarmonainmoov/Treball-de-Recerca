@@ -1,0 +1,11 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: Energía solar: Busca las horas de sol previstas para mañana en Mataró. ¿Cuánta energía producirían 12 paneles solares de 450 W con un rendimiento del 85 %?
+RESPUESTA:
+Con 12 paneles solares de 450 W cada uno y un rendimiento del 85 %, la energía total producida en un día con aproximadamente **14 horas de sol** sería de **64,26 kWh**.
+
+### Resumen:
+- **Horas de sol previstas para mañana en Mataró:** ~14 horas.
+- **Energía producida por 12 paneles de 450 W (85 % rendimiento):** **64,26 kWh**.

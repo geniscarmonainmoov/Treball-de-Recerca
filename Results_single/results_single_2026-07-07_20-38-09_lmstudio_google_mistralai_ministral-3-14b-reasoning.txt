@@ -1,0 +1,12 @@
+SINGLE AGENT RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "¿Quién ganó la última etapa del Tour de Francia de ayer?"
+RESPUESTA:
+No lo sé, pero puedo buscarlo en internet por ti. ¿Quieres que lo haga?
+
+================================================================================
+PREGUNTA: "¿Quién ganó la última etapa del Tour de Francia de ayer?"
+RESPUESTA:
+No lo sé, pero puedo buscarlo en internet por ti. ¿Quieres que lo haga?

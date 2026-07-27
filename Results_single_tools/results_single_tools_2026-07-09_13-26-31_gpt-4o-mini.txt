@@ -1,0 +1,18 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: "Quiero montar un PC de sobremesa para IA local con un presupuesto máximo de 2.800 €. Busca los mejores precios actuales en al menos 10 tiendas europeas, calcula el coste total con envío e IVA, comprueba la compatibilidad completa de todos los componentes (CPU, placa, RAM, GPU, fuente y caja), estima el consumo eléctrico máximo, calcula el coste anual de electricidad si funciona 8 horas al día en España, compara el rendimiento esperado en Llama 3.3 70B, Qwen 3 y DeepSeek V3 cuantizados, y finalmente propón tres configuraciones diferentes optimizadas para rendimiento, silencio y relación calidad-precio justificando cada decisión."
+RESPUESTA:
+No he podido obtener datos en tiempo real sobre precios y configuraciones específicas para un PC de sobremesa de IA en este momento, ya que las búsquedas han fallado. Sin embargo, he encontrado recursos útiles para asegurar la compatibilidad de los componentes y estimar el consumo eléctrico. A continuación, tienes algunos enlaces pertinentes:
+
+1. **Compatibilidad de componentes**:
+   - [Guía de compatibilidad de hardware de PC](https://www.pchardwarepro.com/guia-completa-para-garantizar-la-compatibilidad-de-los-componentes-del-pc/)
+   - [Compatibilidad entre componentes de PC](https://www.cashconverters.es/es/es/oportunidades/descubre-la-compatibilidad-entre-los-componentes-de-pc/)
+   - [Guía técnica sobre compatibilidad de componentes](https://www.tutecnoya.es/compatibilidad-de-componentes-pc-en-2026-la-guia-definitiva-para-montar-tu-pc-gaming/)
+
+2. **Consumo eléctrico**:
+   - [Calculadora consumo eléctrico PC](https://compratuportatil.com/hardware/calculadora-consumo-electrico-pc)
+   - [Cuánto consume un ordenador](https://calculadoraverde.com/cuanto-consume-un-ordenador-portatil-o-de-sobremesa-y-cuanto-cuesta-tenerlo-encendido/)
+
+Para cumplir con tu solicitud de obtener configuraciones optimizadas y rendimiento, propongo realizar las búsquedas más tarde o en otro momento cuando el acceso a internet esté disponible. ¿Te gustaría que intentáramos de nuevo en otro momento o deseas explorar alguna de estas áreas de manera más específica?
