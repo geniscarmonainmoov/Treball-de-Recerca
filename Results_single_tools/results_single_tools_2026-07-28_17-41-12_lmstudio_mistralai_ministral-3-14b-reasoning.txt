@@ -1,0 +1,12 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Qué empresa fabricó el primer ordenador portátil compatible con IBM PC que incluyó una pantalla LCD monocromática y en qué año fue presentado??
+RESPUESTA:
+La información confirmada indica que el primer ordenador portátil compatible con IBM PC que incluyó una pantalla LCD monocromática fue el **IBM PC Convertible (modelo 5140)**, fabricado por **IBM**. Este modelo fue presentado oficialmente el **3 de abril de 1986** y destacó por ser el primer portátil auténtico de la empresa, con capacidad para administrar su consumo energético y uso de baterías.
+
+Además, se menciona que este equipo incluía una pantalla LCD monocromática con resolución de 640x200 píxeles y un procesador Intel 8088 a 4.77 MHz. También fue pionero en introducir el formato de disquete de 3.5 pulgadas en la línea de productos IBM.
+
+Por lo tanto, la respuesta final es:
+**IBM fabricó el primer ordenador portátil compatible con IBM PC que incluyó una pantalla LCD monocromática, el IBM PC Convertible (modelo 5140), y fue presentado en abril de 1986.**

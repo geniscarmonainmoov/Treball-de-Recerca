@@ -1,0 +1,24 @@
+SINGLE AGENT WITH TOOLS RUN
+================================================================================
+
+================================================================================
+PREGUNTA: ¿Busca el precio medio actual de la electricidad en España. ¿Cuánto costaría mantener encendido un ordenador de 850 W durante 1 año??
+RESPUESTA:
+Basándome en los datos obtenidos, el precio medio del kWh de electricidad para hogares en España en 2026 oscila entre **0,15 € y 0,25 €**, dependiendo de la tarifa contratada y la hora del día.
+
+Para calcular el costo anual de mantener encendido un ordenador de **850 W (0.85 kW)** durante **1 año (8760 horas)**, asumiré un precio medio de **0,20 €/kWh** como referencia:
+
+### Cálculo:
+1. **Consumo diario**:
+   \( 0.85 \, \text{kW} \times 24 \, \text{horas} = 20.4 \, \text{kWh/día} \)
+
+2. **Consumo anual**:
+   \( 20.4 \, \text{kWh/día} \times 365 \, \text{días} = 7,426 \, \text{kWh/año} \)
+
+3. **Costo anual**:
+   \( 7,426 \, \text{kWh} \times 0.20 \, \text{€/kWh} = 1,485.2 \, \text{€/año} \)
+
+### Resultado:
+Mantener encendido un ordenador de **850 W durante 1 año** costaría aproximadamente **1,485.2 €**, asumiendo un precio medio de **0.20 €/kWh**.
+
+Si deseas un cálculo con otro precio o más detalles, ¡avísame! 😊

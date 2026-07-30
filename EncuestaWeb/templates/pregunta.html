@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Encuesta</title>
+
+</head>
+
+
+<body>
+
+
+<h1>Encuesta videojuegos</h1>
+
+
+<form method="POST"
+action="/responder/{{numero}}">
+
+
+{% if numero == 0 %}
+
+<p>Nombre:</p>
+
+<input 
+name="usuario"
+required>
+
+
+{% else %}
+
+<input 
+type="hidden"
+name="usuario"
+value="anonimo">
+
+{% endif %}
+
+
+
+<h2>
+{{pregunta}}
+</h2>
+
+
+<input 
+name="respuesta"
+required>
+
+
+<input
+type="hidden"
+id="inicio"
+name="inicio">
+
+
+
+<br><br>
+
+
+<button>
+Siguiente
+</button>
+
+
+</form>
+
+
+
+<script>
+
+document.getElementById(
+"inicio"
+).value =
+Date.now()/1000;
+
+
+</script>
+
+
+</body>
+
+</html>

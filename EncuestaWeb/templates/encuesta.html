@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="cabecera">
+
+Enquesta TdR
+
+</div>
+
+
+
+<div class="formulario">
+
+
+<h2>
+Pregunta {{numero+1}} de 6
+</h2>
+
+
+<div class="barra">
+</div>
+
+
+
+<h3>
+{{pregunta}}
+</h3>
+
+
+
+<form method="POST"
+action="/responder/{{numero}}">
+
+
+<textarea
+name="respuesta"
+placeholder="Escriu la teva resposta..."
+required>
+</textarea>
+
+
+<input 
+type="hidden"
+id="inicio"
+name="inicio">
+
+
+<br><br>
+
+
+<button>
+Seguent
+</button>
+
+
+</form>
+
+
+</div>
+
+
+
+<script>
+
+document.getElementById("inicio").value =
+Date.now()/1000;
+
+
+</script>
+
+
+
+</body>
+
+</html>
